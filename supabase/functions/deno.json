@@ -1,0 +1,10 @@
+{
+  "//": "Funkcje brzegowe chodzą na Deno, nie na React Native. Osobna konfiguracja, bo mają inne globalne API i inny sposób rozwiązywania importów. tsconfig.json aplikacji wyklucza ten katalog.",
+  "imports": {
+    "@supabase/supabase-js": "jsr:@supabase/supabase-js@2"
+  },
+  "compilerOptions": {
+    "strict": true,
+    "lib": ["deno.window", "esnext"]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "okno-15-minut",
+  "description": "Wąskie okno: piętnaście minut na siebie w całej dobie.",
+  "allocatedMinutes": 15,
+  "hasWindow": true,
+  "habits": [
+    {
+      "title": "Czytanie",
+      "unit": "pages"
+    }
+  ],
+  "restWeekdays": [],
+  "intent": "chcę codziennie zrobić coś dla siebie",
+  "expect": "candidates"
+}

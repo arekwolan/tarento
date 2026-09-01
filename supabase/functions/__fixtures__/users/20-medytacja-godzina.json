@@ -1,0 +1,10 @@
+{
+  "name": "medytacja-godzina",
+  "description": "Prośba o godzinę dziennie: start i tak ma być dwuminutowy.",
+  "allocatedMinutes": 90,
+  "hasWindow": true,
+  "habits": [],
+  "restWeekdays": [],
+  "intent": "chcę medytować godzinę dziennie",
+  "expect": "candidates"
+}

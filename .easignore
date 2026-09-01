@@ -1,0 +1,6 @@
+# Nie wysyłamy do buildu rzeczy, które i tak nie trafią do aplikacji.
+supabase/
+.maestro/
+**/__tests__/
+*.test.ts
+*.test.tsx

@@ -1,0 +1,15 @@
+{
+  "name": "nauka-jezyka",
+  "description": "Nauka języka: konkretna czynność, jednostka nieoczywista.",
+  "allocatedMinutes": 60,
+  "hasWindow": true,
+  "habits": [
+    {
+      "title": "Czytanie",
+      "unit": "pages"
+    }
+  ],
+  "restWeekdays": [],
+  "intent": "chcę nauczyć się hiszpańskiego",
+  "expect": "candidates"
+}

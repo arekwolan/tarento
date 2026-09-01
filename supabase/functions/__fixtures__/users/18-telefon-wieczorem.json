@@ -1,0 +1,15 @@
+{
+  "name": "telefon-wieczorem",
+  "description": "Odejmowanie zamiast dokładania: mniej telefonu.",
+  "allocatedMinutes": 30,
+  "hasWindow": true,
+  "habits": [
+    {
+      "title": "Dziennik",
+      "unit": "none"
+    }
+  ],
+  "restWeekdays": [],
+  "intent": "chcę mniej scrollować wieczorem",
+  "expect": "candidates"
+}

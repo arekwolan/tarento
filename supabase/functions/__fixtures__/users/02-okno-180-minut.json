@@ -1,0 +1,10 @@
+{
+  "name": "okno-180-minut",
+  "description": "Szerokie okno: trzy godziny wolnego wieczoru.",
+  "allocatedMinutes": 180,
+  "hasWindow": true,
+  "habits": [],
+  "restWeekdays": [],
+  "intent": "chcę wieczorami robić coś poza serialami",
+  "expect": "candidates"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "zmianowiec-weekend",
+  "description": "Zmianowiec: okno tylko w weekend, w tygodniu nic nie wychodzi.",
+  "allocatedMinutes": 25,
+  "hasWindow": true,
+  "habits": [
+    {
+      "title": "Rozciąganie",
+      "unit": "minutes"
+    }
+  ],
+  "restWeekdays": [1, 2, 3, 4, 5],
+  "intent": "chcę wrócić do formy po nockach",
+  "expect": "candidates"
+}

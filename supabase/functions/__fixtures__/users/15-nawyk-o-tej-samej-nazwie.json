@@ -1,0 +1,15 @@
+{
+  "name": "nawyk-o-tej-samej-nazwie",
+  "description": "Zamiar powtarza nawyk, który użytkownik już prowadzi.",
+  "allocatedMinutes": 35,
+  "hasWindow": true,
+  "habits": [
+    {
+      "title": "Medytacja",
+      "unit": "minutes"
+    }
+  ],
+  "restWeekdays": [],
+  "intent": "chcę medytować",
+  "expect": "candidates"
+}

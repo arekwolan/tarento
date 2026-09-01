@@ -1,0 +1,1426 @@
+{
+  "common": {
+    "appName": "Tarento",
+    "cancel": "Cancel",
+    "back": "Back",
+    "retry": "Try again",
+    "loading": "Loading…",
+    "undo": "Undo",
+    "habit": "habit"
+  },
+  "tabs": {
+    "today": "Today",
+    "stats": "Progress",
+    "library": "Library",
+    "settings": "Settings"
+  },
+  "auth": {
+    "welcome": {
+      "title": "Tarento",
+      "tagline": "One list for today and a streak that grows with every day you check off. No system to learn — just what you set out to do today.",
+      "guestCta": "Try it without an account",
+      "guestNote": "You can create an account later, nothing gets lost.",
+      "haveAccount": "I already have an account"
+    },
+    "signIn": {
+      "title": "Sign in",
+      "subtitle": "Pick your habits back up.",
+      "submit": "Sign in",
+      "orDivider": "or",
+      "magicLink": "Send a sign-in link",
+      "magicLinkSent": "We sent a link to that address. Open it on this device.",
+      "forgotPassword": "I forgot my password",
+      "noAccount": "I do not have an account yet"
+    },
+    "signUp": {
+      "title": "Create account",
+      "subtitle": "Start with one thing a day.",
+      "submit": "Create account",
+      "confirmationSent": "Check your inbox and open the confirmation link to finish signing up.",
+      "haveAccount": "I already have an account"
+    },
+    "forgotPassword": {
+      "title": "Reset password",
+      "subtitle": "We will send a link to set a new password.",
+      "submit": "Send link",
+      "sent": "If an account with that address exists, the link is on its way.",
+      "backToSignIn": "Back to sign in"
+    },
+    "fields": {
+      "email": "Email address",
+      "password": "Password",
+      "passwordConfirmation": "Repeat password",
+      "passwordHint": "At least 8 characters."
+    },
+    "guest": {
+      "badge": "Guest mode",
+      "upgradeTitle": "Save your account",
+      "upgradeDescription": "Your data lives in a temporary account on this device. Add an address and password and we will attach them to the same account — habits and streaks stay.",
+      "upgradeSubmit": "Save account",
+      "upgradeSent": "Confirmation link sent. The password works right away, the address once you open the link.",
+      "signOutWarning": "Signing out of guest mode cuts off access to the data on this device. Save your account first."
+    },
+    "validation": {
+      "emailRequired": "Enter an email address.",
+      "emailInvalid": "That does not look like an email address.",
+      "passwordRequired": "Enter a password.",
+      "passwordTooShort": "The password needs at least 8 characters.",
+      "passwordTooLong": "The password can be at most 72 characters.",
+      "passwordsDoNotMatch": "The passwords do not match."
+    },
+    "errors": {
+      "network": "No internet connection. Check your network and try again.",
+      "serverUnavailable": "The server is not responding right now. Try again in a moment.",
+      "invalidCredentials": "Wrong email address or password.",
+      "emailNotConfirmed": "That address is not confirmed yet. Check your inbox.",
+      "emailExists": "An account with that address already exists.",
+      "emailInvalid": "The server rejected that email address.",
+      "emailNotAuthorized": "We cannot send messages to that address.",
+      "weakPassword": "That password is too weak. Pick a longer one.",
+      "samePassword": "The new password has to differ from the old one.",
+      "linkExpired": "The link expired or was already used. Request a new one.",
+      "tooManyEmails": "Too many messages in a short time. Wait a moment.",
+      "tooManyRequests": "Too many attempts. Wait a moment and try again.",
+      "signupDisabled": "Sign-up is currently disabled.",
+      "guestDisabled": "Guest mode is currently unavailable.",
+      "providerDisabled": "That sign-in method is unavailable.",
+      "userBanned": "This account has been blocked.",
+      "userNotFound": "No such account found.",
+      "sessionExpired": "Your session expired. Sign in again.",
+      "validationFailed": "The data did not pass validation. Check the form.",
+      "unknown": "Something went wrong. Try again."
+    }
+  },
+  "onboarding": {
+    "skip": "Skip",
+    "next": "Next",
+    "finish": "Let us start",
+    "saving": "Saving…",
+    "error": "Something went wrong. Try once more.",
+    "dayShape": {
+      "title": "The shape of your day",
+      "description": "Three questions. They take a moment, and without them we cannot tell how much room you really have.",
+      "skip": "Skip this",
+      "offline": "No connection. The save will wait until it is back.",
+      "step1": {
+        "title": "When does your day start and end?",
+        "wake": "Wake up",
+        "sleep": "Sleep",
+        "earlier": "Earlier",
+        "later": "Later"
+      },
+      "step2": {
+        "title": "When are you busy on workdays?",
+        "hint": "Drag the edges if you count the commute in.",
+        "add": "Add another block",
+        "remove": "Remove",
+        "range": "{{start}}–{{end}}",
+        "blockStart": "Busy from",
+        "blockEnd": "Busy until"
+      },
+      "step3": {
+        "title": "How much time a day do you want for yourself?",
+        "option": "{{minutes}} min",
+        "window": "Your window: {{minutes}} minutes a day.",
+        "windowTight": "On a workday {{minutes}} minutes fit. More on the weekend.",
+        "windowNone": "On a workday nothing is left. More on the weekend."
+      },
+      "workdayName": "Workday",
+      "freeName": "Day off"
+    },
+    "step1": {
+      "title": "Where do we start?",
+      "description": "Pick the area that matters most right now. We will suggest habits that fit it — the rest you add later.",
+      "focus": "Focus",
+      "focusDescription": "Work without distractions, one thing at a time.",
+      "mindfulness": "Calm",
+      "mindfulnessDescription": "Quiet, breath, less screen.",
+      "health": "Health",
+      "healthDescription": "Movement, sleep, everyday energy.",
+      "learning": "Learning",
+      "learningDescription": "Reading, notes, new skills."
+    },
+    "step2": {
+      "title": "Pick one to three",
+      "description": "Start small. You will add more once these stick.",
+      "selected": "{{selected}} of {{max}} selected",
+      "empty": "We have no templates for this area. You can add a habit by hand after finishing."
+    },
+    "step3": {
+      "title": "A reminder at a fixed time",
+      "description": "A habit sticks more easily when it has its own hour. We will send one short notification a day — nothing else.",
+      "whyOne": "No marketing notifications.",
+      "whyTwo": "You can turn them off any time in system settings.",
+      "timeLabel": "At what time?",
+      "allow": "Turn on reminders",
+      "later": "Not now",
+      "denied": "Notifications are off in system settings. Habits will work without them."
+    }
+  },
+  "today": {
+    "title": "Today",
+    "subtitle": "One list. That is enough.",
+    "empty": {
+      "title": "Nothing for today",
+      "description": "Add your first habit and it will show up here every morning.",
+      "action": "Add a habit"
+    },
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    },
+    "progress": {
+      "label": "{{done}} of {{total}} done",
+      "accessibility": "Day progress: {{done}} of {{total}}"
+    },
+    "window": {
+      "total": "Your window: {{minutes}} minutes.",
+      "left": "{{minutes}} minutes left of your window."
+    },
+    "dayMenu": {
+      "hint": "Opens the day options."
+    },
+    "groups": {
+      "morning": "Morning",
+      "afternoon": "Afternoon",
+      "evening": "Evening",
+      "anytime": "Any time"
+    },
+    "showAll": "Show everything",
+    "task": {
+      "progression": "+{{delta}} vs the previous day",
+      "streak": "{{days}} days in a row",
+      "skip": "Skip today",
+      "unskip": "Undo skip",
+      "skipped": "Skipped today",
+      "toggleHint": "Tap to check off. Press and hold for details.",
+      "completed": "Done",
+      "notCompleted": "To do",
+      "streakShort": "{{days}} d"
+    },
+    "allDone": {
+      "title": "That is everything for today",
+      "description": "Close the app with a clear head. Tomorrow it will be here again."
+    },
+    "offline": {
+      "banner": "No connection. Your changes will sync once it is back."
+    },
+    "details": {
+      "close": "Close",
+      "schedule": "Schedule",
+      "scheduleDaily": "Every day",
+      "scheduleWeekdays": "Weekdays",
+      "scheduleCustom": "Selected days",
+      "startedOn": "Started: {{date}}",
+      "targetToday": "Target for today",
+      "currentStreak": "Streak",
+      "longestStreak": "Longest streak",
+      "days": "{{days}} days",
+      "source": "From: {{book}}",
+      "noteLabel": "Note",
+      "notePlaceholder": "How did it go today?",
+      "noteDisabled": "You can add a note after checking off or skipping.",
+      "noteSave": "Save note",
+      "edit": "Edit habit"
+    },
+    "error": {
+      "load": "Could not refresh the list. Showing the last known data."
+    },
+    "toast": {
+      "done": "Checked off",
+      "undone": "Unchecked",
+      "skipped": "Skipped for today",
+      "unskipped": "Back on the list"
+    }
+  },
+  "rest": {
+    "today": {
+      "title": "Nothing is due today.",
+      "showList": "Show the list",
+      "make": "Make today an empty day",
+      "undone": "Empty day undone"
+    },
+    "settings": {
+      "title": "Empty day",
+      "hint": "On that day the app asks for nothing. The streak does not break.",
+      "error": "Could not save. Try once more."
+    },
+    "dayLabel": "empty day"
+  },
+  "stats": {
+    "title": "Progress",
+    "empty": {
+      "title": "Come back in a few days",
+      "description": "Charts need history. Check in for a few days and there will be something to look at."
+    },
+    "subtitle": "How the last few weeks went.",
+    "heatmap": {
+      "title": "Last 12 weeks",
+      "legendLess": "less",
+      "legendMore": "more",
+      "cell": "{{date}}: {{level}}",
+      "cellToday": "{{date}}: today, the day is still running",
+      "level": {
+        "empty": "nothing was scheduled",
+        "none": "nothing checked off",
+        "quarter": "up to a quarter checked off",
+        "half": "up to half checked off",
+        "most": "most checked off",
+        "all": "everything checked off"
+      }
+    },
+    "streak": {
+      "title": "Streaks",
+      "current": "Current",
+      "longest": "Longest",
+      "days": "{{days}} days"
+    },
+    "adherence": {
+      "title": "Adherence",
+      "last7": "Last 7 days",
+      "last30": "Last 30 days"
+    },
+    "habits": {
+      "title": "Habits",
+      "last30": "{{completed}} of {{scheduled}} in 30 days",
+      "streak": "Streak: {{days}} days"
+    },
+    "built": {
+      "title": "Habits built",
+      "description": "Habits you no longer have to check off."
+    },
+    "observation": {
+      "weekday": "Over the last weeks you did best {{best}} and worst {{worst}}.",
+      "longestHabit": "You have been doing {{title}} for {{days}} days.",
+      "timeOfDay": "It works best for you {{band}}.",
+      "fullDays": "You closed {{count}} days in full this month.",
+      "tooEarly": "Too early to tell. Come back in a week.",
+      "bands": {
+        "morning": "in the morning",
+        "afternoon": "in the afternoon",
+        "evening": "in the evening"
+      }
+    },
+    "pace": {
+      "window": "of the last {{total}} days",
+      "longest": "Longest streak: {{days}} days.",
+      "accessibility": "{{done}} of the last {{total}} days closed in full."
+    },
+    "forecast": {
+      "line": "{{title}}: at this pace you will reach {{target}}{{unit}} around {{date}}.",
+      "title": "Forecast"
+    },
+    "dayUndo": {
+      "close": "Close",
+      "hint": "Press and hold to clear this day",
+      "empty": "Nothing was checked off that day.",
+      "statusDone": "checked off",
+      "statusSkipped": "skipped",
+      "action": "Clear everything from this day",
+      "note": "The streak will be recounted.",
+      "toast": "Day cleared."
+    }
+  },
+  "selfKnowledge": {
+    "title": "Your operating manual",
+    "description": "Private hypotheses based on comparable opportunities in your own history. These are suggestions to accept, not a profile or diagnosis.",
+    "empty": "There is not enough comparable data yet. A check will not force a conclusion.",
+    "noVisibleRules": "There are no rules awaiting a decision right now.",
+    "error": "Your private rules could not be checked. Try again.",
+    "evidence": "{{count}} opportunities · {{from}}–{{to}} · algorithm {{version}}",
+    "caution": "Treat this as a clue, not a certainty. It describes association, not causation.",
+    "reviewRequired": "Newer data contradicts this rule. The original evidence was kept — decide whether you still want to use it.",
+    "deleted": "The rule was removed from your manual.",
+    "types": {
+      "time_of_day": "Time of day",
+      "target_size": "Target size",
+      "day_type": "Day type",
+      "friction": "Repeated friction",
+      "minimal_version": "Minimum version",
+      "revision_outcome": "Before and after a change"
+    },
+    "statement": {
+      "comparison": "For “{{habit}}”, the {{preferred}} variant appeared more often: {{preferredCompleted}}/{{preferredTotal}} versus {{comparisonCompleted}}/{{comparisonTotal}} for the {{comparison}} variant.",
+      "friction": "For “{{habit}}”, “{{reason}}” appeared {{count}} times. It may be worth considering in the next habit design change."
+    },
+    "values": {
+      "morning": "morning",
+      "afternoon": "afternoon",
+      "evening": "evening",
+      "smaller": "smaller target",
+      "larger": "larger target",
+      "workday": "workday",
+      "free": "free day",
+      "nightShift": "night shift",
+      "care": "care day",
+      "custom": "custom day",
+      "forgot": "I forgot",
+      "noTime": "I had no time",
+      "tooBig": "the step was too large",
+      "wrongTime": "wrong time",
+      "environment": "preparation or environment was missing",
+      "notToday": "it did not fit today",
+      "minimal": "minimum version",
+      "standard": "standard version",
+      "before": "before the change",
+      "after": "after the change"
+    },
+    "actions": {
+      "analyze": "Check my data",
+      "recheck": "Check again",
+      "accept": "Add to my manual",
+      "reject": "Do not accept this rule",
+      "keepAfterReview": "Keep after reviewing",
+      "expire": "Mark as outdated",
+      "delete": "Delete this rule"
+    },
+    "context": {
+      "title": "Context from your manual",
+      "description": "Accepted rules only. They are visible in the preview and never change the plan automatically.",
+      "included": "Your rule for “{{habit}}” was considered: {{preferred}}.",
+      "disable": "Disable for this preview",
+      "enable": "Include in this preview",
+      "enabled": "included",
+      "disabled": "disabled",
+      "accessibility": "Rule in preview: {{state}}"
+    }
+  },
+  "library": {
+    "title": "Library",
+    "offline": "No connection. You are seeing the Library content downloaded last.",
+    "meta": "{{author}} · {{meta}}",
+    "sections": {
+      "continue": {
+        "error": "The active path could not be loaded. The rest of the Library is still available.",
+        "offlineUnavailable": "The active path has not been downloaded to this device yet. Connect to open it."
+      },
+      "start": {
+        "title": "Start",
+        "description": "Choose one path or prepare a protocol from your own notes.",
+        "catalog": "Browse paths and protocols",
+        "bookLab": "Create a protocol from notes"
+      },
+      "tools": {
+        "title": "Tools for action",
+        "description": "Start with a ready-made template or one sentence about what you need.",
+        "intentTitle": "Suggestion from intent",
+        "intentDescription": "One entry leads to suggestions and the regular habit form. Nothing is saved without your decision.",
+        "intentAction": "Describe what you want to change",
+        "templates": "Habit templates",
+        "error": "Templates could not be loaded. The other sections still work normally.",
+        "refreshError": "Templates could not be refreshed. The last downloaded version is shown."
+      },
+      "reflection": {
+        "title": "For reflection",
+        "description": "Your quotes, delivered letters and material removed from the current list.",
+        "letters": "Letters to yourself",
+        "error": "Reflection material could not be loaded. The other sections still work normally.",
+        "refreshError": "Some material could not be refreshed. Content saved on this device is shown.",
+        "emptyTitle": "No reflection material yet",
+        "emptyDescription": "Favourite quotes and delivered letters will appear here over time."
+      },
+      "completed": {
+        "title": "Completed",
+        "show": "Show completed ({{count}})",
+        "hide": "Hide completed ({{count}})",
+        "open": "Open path history",
+        "empty": "You have not completed any paths or protocols yet.",
+        "error": "Completed path history could not be loaded."
+      }
+    },
+    "empty": {
+      "title": "The library is empty",
+      "description": "Ready-made habit sets and quotes will land here."
+    },
+    "tabs": {
+      "templates": "Templates",
+      "quotes": "Quotes"
+    },
+    "filterAll": "All",
+    "template": {
+      "add": "Add to my habits",
+      "source": "From: {{book}}",
+      "preview": "Preview"
+    },
+    "quotes": {
+      "today": "Quote of the day",
+      "favorites": "Favourites",
+      "history": "History",
+      "emptyFavorites": "Nothing here yet. The heart on the quote of the day adds it to this list.",
+      "emptyHistory": "The history fills itself in, one day at a time."
+    },
+    "emptyTemplates": {
+      "title": "No templates",
+      "description": "There is nothing to show in this category yet."
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "appearance": {
+      "title": "Appearance",
+      "description": "By default the app follows your system theme.",
+      "system": "Match system",
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "language": {
+      "title": "Language",
+      "description": "Detected from device settings, falling back to Polish.",
+      "pl": "Polish",
+      "en": "English"
+    },
+    "account": {
+      "title": "Account",
+      "signedInAs": "Signed in as {{email}}",
+      "guestDescription": "You are using a temporary account on this device.",
+      "signOut": "Sign out",
+      "signOutConfirmTitle": "Sign out?",
+      "signOutConfirmMessage": "You will go back to the welcome screen.",
+      "signOutConfirm": "Sign out",
+      "delete": "Delete account",
+      "deleteFirstTitle": "Delete your account?",
+      "deleteFirstMessage": "Habits, check-in history and streaks will be gone. This cannot be undone.",
+      "deleteFirstConfirm": "I want to delete",
+      "deleteSecondTitle": "Sure? This is final",
+      "deleteSecondMessage": "Last question. After confirming, the data is deleted immediately and permanently.",
+      "deleteSecondConfirm": "Delete account forever"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "description": "One short reminder a day per habit, at the time you set.",
+      "toggle": "Habit reminders",
+      "on": "On",
+      "off": "Off",
+      "permissionDenied": "Notifications are blocked in system settings. Turn them on there for reminders to work.",
+      "askPermission": "Allow notifications",
+      "quietUntil": "Reminders are muted until {{date}}.",
+      "quietResume": "Turn them on now"
+    },
+    "dayStart": {
+      "title": "Start of day",
+      "description": "The new day begins at this hour. Set to 4:00, checking off at 1:30 at night still closes the previous day.",
+      "hour": "{{hour}}:00"
+    },
+    "dailyCeiling": {
+      "title": "At most this many items today",
+      "description": "A list longer than a few items stops being one thing for today. The rest waits out of sight.",
+      "unlimited": "No limit"
+    },
+    "export": {
+      "title": "Data export",
+      "description": "Download everything we hold about you as a JSON file: profile, habits, check-in history, favourite quotes.",
+      "action": "Export to JSON",
+      "shared": "File ready — pick where to save it.",
+      "unavailable": "This device does not support file sharing.",
+      "error": "Could not prepare the file. Try again."
+    },
+    "privacy": {
+      "title": "Privacy",
+      "description": "What we collect, why, and how to get rid of it.",
+      "action": "Read the privacy policy"
+    }
+  },
+  "placeholder": {
+    "comingSoon": "This screen is coming in the next step."
+  },
+  "habits": {
+    "units": {
+      "minutes": "min",
+      "seconds": "s",
+      "reps": "reps",
+      "pages": "pp."
+    },
+    "new": {
+      "title": "New habit"
+    },
+    "edit": {
+      "title": "Edit habit",
+      "loading": "Loading habit…",
+      "notFound": "That habit was not found."
+    },
+    "validation": {
+      "titleRequired": "Give the habit a name.",
+      "titleTooLong": "The name can be at most 80 characters.",
+      "startValueInvalid": "The starting value must be a number greater than zero.",
+      "incrementInvalid": "The increment must be a non-negative number.",
+      "targetInvalid": "The final target must be a number greater than zero.",
+      "targetBelowStart": "The final target cannot be lower than the starting value.",
+      "scheduleDaysRequired": "Pick at least one day.",
+      "reminderInvalid": "The time must be in HH:MM format."
+    },
+    "unitNames": {
+      "minutes": "Minutes",
+      "seconds": "Seconds",
+      "reps": "Repetitions",
+      "pages": "Pages",
+      "count": "Items",
+      "none": "No measure"
+    },
+    "form": {
+      "stepOf": "Step {{current}} of {{total}}",
+      "next": "Next",
+      "back": "Back",
+      "save": "Save habit",
+      "saveChanges": "Save changes",
+      "cancel": "Cancel",
+      "saveError": "Could not save. Check your connection and try again.",
+      "steps": {
+        "what": "What are you doing?",
+        "howMuch": "How much?",
+        "when": "When?"
+      },
+      "titleLabel": "Name",
+      "titlePlaceholder": "e.g. Meditation",
+      "descriptionLabel": "Description (optional)",
+      "descriptionPlaceholder": "Why are you doing this?",
+      "iconLabel": "Icon",
+      "categoryLabel": "Time of day",
+      "unitLabel": "Unit",
+      "startValueLabel": "Starting value",
+      "startValueHint": "This is where you begin on day one.",
+      "incrementLabel": "Daily increment",
+      "incrementHint": "Zero means the target stays flat.",
+      "targetLabel": "Final target (optional)",
+      "targetHint": "Leave empty for no ceiling — the habit keeps growing.",
+      "progressionLabel": "How the target grows",
+      "progressionCompletionTitle": "After each completion",
+      "progressionCompletionDescription": "The bar goes up only when you check off. A missed day moves nothing.",
+      "progressionCalendarTitle": "With the calendar",
+      "progressionCalendarDescription": "The target grows as days pass, whether or not you check off. Harsher, but you cannot quietly fall behind.",
+      "scheduleLabel": "Schedule",
+      "scheduleDaily": "Every day",
+      "scheduleWeekdays": "Weekdays",
+      "scheduleCustom": "Selected days",
+      "scheduleDaysLabel": "Days of the week",
+      "timeOfDayLabel": "Time of day",
+      "timeOfDayNone": "Any time",
+      "reminderLabel": "Reminder",
+      "reminderNone": "No reminder",
+      "reminderEarlier": "−15 min",
+      "reminderLater": "+15 min",
+      "previewTitle": "Preview",
+      "previewInDays": "In {{days}} days: {{target}}",
+      "previewNoProgression": "The target stays flat — the same every day.",
+      "archiveAction": "Archive habit"
+    },
+    "toast": {
+      "archived": "Habit moved to the archive"
+    },
+    "downshift": {
+      "title": "This habit is not landing.",
+      "body": "Done {{completed}} of {{scheduled}} days. That usually means the ask is too big, not that something is wrong with you.",
+      "action": "Make it smaller",
+      "sheetTitle": "A smaller version",
+      "close": "Close",
+      "confirm": "Change it",
+      "incrementValue": "growing by {{value}} a day",
+      "incrementNone": "no growth",
+      "historyStays": "Your history stays as it is.",
+      "toast": "Habit made smaller."
+    },
+    "retirement": {
+      "title": "You have this one.",
+      "body": "{{completed}} of the last {{scheduled}} days. You can stop checking it off — the history stays, the streak stays, it just leaves today's list.",
+      "retire": "Take it off the list",
+      "keep": "Leave it",
+      "toast": "Habit taken off the list."
+    },
+    "retired": {
+      "show": "Taken off the list ({{count}})",
+      "hide": "Taken off the list — collapse",
+      "restore": "Back to the list"
+    },
+    "history": {
+      "title": "Change history",
+      "description": "Successive versions of this habit's settings. Check-offs are not version changes.",
+      "offline": "No connection. You are seeing the last downloaded history; a restore can wait in the queue.",
+      "error": "Could not load the change history.",
+      "empty": "History will begin with the next lasting change.",
+      "current": "Current version",
+      "restoreAction": "Restore this version",
+      "none": "none",
+      "reasons": {
+        "initialSnapshot": "Initial history snapshot",
+        "created": "Habit created",
+        "userEdit": "Manual edit",
+        "difficultPeriod": "Smaller version for a difficult period",
+        "pathMaterialized": "Practice added by a path",
+        "pathStage": "Path stage changed",
+        "pathPause": "Path paused",
+        "pathEnd": "Path ended",
+        "timeCalibration": "Time adjusted to completions",
+        "reentry": "Gentle reentry",
+        "reentryComplete": "Reentry completed",
+        "retired": "Taken off the list",
+        "restored": "Returned to the list",
+        "archived": "Archived",
+        "rollback": "Earlier version restored",
+        "dayFit": "Fitted to the day",
+        "experimentA": "Experiment — variant A",
+        "experimentB": "Experiment — variant B",
+        "experimentPause": "Experiment paused",
+        "experimentResume": "Experiment resumed",
+        "experimentCancel": "Experiment stopped",
+        "experimentChoice": "Choice after experiment"
+      },
+      "changes": {
+        "created": "The first known version was saved.",
+        "title": "Name: {{before}} → {{after}}",
+        "amount": "Version: {{before}} → {{after}}",
+        "increment": "Increment: {{before}} → {{after}}",
+        "target": "Target: {{before}} → {{after}}",
+        "schedule": "Schedule: {{before}} → {{after}}",
+        "timeOfDay": "Time: {{before}} → {{after}}",
+        "reminder": "Reminder: {{before}} → {{after}}",
+        "status": "State: {{before}} → {{after}}",
+        "details": "Other habit settings changed."
+      },
+      "status": {
+        "active": "on the list",
+        "retired": "off the list",
+        "archived": "archived"
+      },
+      "preview": {
+        "title": "Restore this version?",
+        "close": "Close preview",
+        "description": "This creates a new version. The existing history stays unchanged.",
+        "budgetTitle": "Impact on today's plan",
+        "minutes": "This habit: {{before}} min → {{after}} min",
+        "budget": "Other planned habits: {{used}} of {{total}} min",
+        "noBudget": "You have no minute limit set for this day.",
+        "pathConflict": "This habit belongs to the active path. Restoring will consciously change its current practice.",
+        "blocked": "This version does not fit the current budget or item limit. Reduce the day plan first.",
+        "confirm": "Restore settings",
+        "queued": "The restore is waiting for a connection. If another device changes the version, the save will be safely rejected.",
+        "error": "Could not prepare the preview.",
+        "restoreError": "Could not restore. Refresh the history and check the current budget."
+      }
+    }
+  },
+  "friction": {
+    "details": {
+      "action": "What got in the way today?"
+    },
+    "reasons": {
+      "forgot": "I forgot",
+      "noTime": "I did not have time",
+      "tooBig": "The step was too big",
+      "wrongTime": "It was the wrong time",
+      "environment": "Preparation was missing",
+      "notToday": "It did not fit today"
+    },
+    "picker": {
+      "title": "What got in the way?",
+      "description": "Optionally choose one obstacle for: {{habit}}. No explanation and no judgement.",
+      "skip": "Skip this question",
+      "remove": "Remove saved reason"
+    },
+    "offline": "No connection. Your choice can wait in the queue.",
+    "queued": "The friction-map change is waiting for a connection.",
+    "saveError": "Could not save the choice. Try again.",
+    "loadError": "Could not refresh the friction map. The rest of your day still works normally; pull down to try again.",
+    "removed": "Reason removed.",
+    "suggestion": {
+      "title": "One pattern is repeating",
+      "observation": "For “{{habit}}”, the reason “{{reason}}” appeared {{count}} times in the last {{days}} days.",
+      "neutral": "This is an observation, not a judgement. You can change the habit's design or do nothing.",
+      "actions": {
+        "reminder": "Preview a reminder",
+        "downshift": "Preview a smaller version",
+        "time": "Preview another time",
+        "prepare": "Prepare the setting once",
+        "rest": "Review a rest day"
+      },
+      "dismiss": "Not now"
+    },
+    "prepare": {
+      "title": "One preparation",
+      "description": "Prepare the setting for “{{habit}}” only for the next opportunity.",
+      "step": "Place one needed item where you will start the practice. This will not become another daily habit.",
+      "done": "Prepared",
+      "saved": "Preparation saved as a one-off decision.",
+      "close": "Close"
+    },
+    "adjustment": {
+      "timeTitle": "Preview another time",
+      "timeDescription": "Choose a time band. The change will appear in the habit history and will not alter earlier check-ins.",
+      "timePreview": "Time: {{before}} → {{after}}",
+      "timeConfirm": "Change time",
+      "reminderTitle": "Reminder preview",
+      "reminderDescription": "The reminder stays off until you choose a time and confirm this change.",
+      "reminderUnavailable": "Reminders are disabled or blocked in the device settings.",
+      "openSettings": "Open settings",
+      "reminderLabel": "Reminder time",
+      "reminderPlaceholder": "08:00",
+      "reminderHint": "24-hour format, for example 08:00.",
+      "reminderInvalid": "Enter a time in HH:MM format.",
+      "reminderPreview": "Reminder: {{before}} → {{after}}",
+      "off": "off",
+      "reminderConfirm": "Enable reminder",
+      "reminderChange": "Change reminder",
+      "saveError": "Could not save the change. Refresh the habit and try again.",
+      "saved": "Habit settings changed.",
+      "close": "Close preview"
+    }
+  },
+  "quote": {
+    "favorite": "Add to favourites",
+    "unfavorite": "Remove from favourites",
+    "share": "Share quote",
+    "shareMessage": "“{{content}}”\n— {{author}}"
+  },
+  "dayShort": {
+    "sun": "Su",
+    "mon": "Mo",
+    "tue": "Tu",
+    "wed": "We",
+    "thu": "Th",
+    "fri": "Fr",
+    "sat": "Sa"
+  },
+  "categories": {
+    "focus": "Focus",
+    "mindfulness": "Calm",
+    "health": "Health",
+    "learning": "Learning",
+    "relationships": "Relationships"
+  },
+  "notifications": {
+    "body": "Check it off once it is done."
+  },
+  "errors": {
+    "route": {
+      "title": "Something broke",
+      "description": "This screen could not load. Your data is safe — give it another try.",
+      "retry": "Try again"
+    }
+  },
+  "privacy": {
+    "title": "Privacy",
+    "intro": "Tarento is a habit-building app. This document says plainly what data we collect, why, and what you can do about it. No legal jargon.",
+    "controller": {
+      "title": "Who processes the data",
+      "body": "The app is run by one person. Data lives in Supabase (a PostgreSQL database in the European Union) and we do not sell it to anyone."
+    },
+    "collected": {
+      "title": "What we collect",
+      "body": "Your email address — only if you create an account. In guest mode the account is anonymous and has no address attached.\nThe habits you create: names, descriptions, schedules, targets.\nCheck-in history: what, when and with what result.\nSettings: theme, language, start-of-day hour, device time zone.\nFavourite quotes and the history of daily quotes."
+    },
+    "notCollected": {
+      "title": "What we do not collect",
+      "body": "Location. Contacts. Photos. Data from health apps. Advertising identifiers. We do not track you outside the app and there are no ads."
+    },
+    "analytics": {
+      "title": "Product analytics",
+      "body": "We collect a handful of events to know which parts of the app work: creating a habit, checking one off, hitting a streak milestone, finishing onboarding, sharing a quote, closing out a day.\n\nNothing you wrote goes into those events: no habit names, descriptions or notes. Only technical fields travel — unit, schedule type, streak length, item counts. The tool is PostHog."
+    },
+    "errors": {
+      "title": "Crash reports",
+      "body": "When the app crashes we send a report to Sentry: device model, OS version and a stack trace. IP addresses and request headers are switched off. The report contains none of your habit content."
+    },
+    "notifications": {
+      "title": "Notifications",
+      "body": "Reminders are scheduled locally, on your device. They never pass through a server, so nobody but you sees what they say."
+    },
+    "storage": {
+      "title": "Where the data lives",
+      "body": "In a PostgreSQL database at Supabase, with Row Level Security on every table. That means the database refuses access to other people rows at the engine level, not merely in the app. Your login session is stored locally in the encrypted device store."
+    },
+    "retention": {
+      "title": "For how long",
+      "body": "As long as you have an account. Deleting the account wipes everything immediately and irreversibly — we keep no just-in-case copies."
+    },
+    "rights": {
+      "title": "What you can do",
+      "body": "Export all of your data to a JSON file — one button in settings.\nDelete your account along with the whole history — also from settings.\nTurn notifications off in the app or in system settings."
+    },
+    "changes": {
+      "title": "Changes",
+      "body": "If we start collecting something new, this document changes together with the app and we say so in the release notes."
+    }
+  },
+  "aiPlan": {
+    "title": "Suggest a plan",
+    "subtitle": "Describe what you want to achieve. You will get a suggested set of habits you can edit before saving.",
+    "entry": "Not sure where to start?",
+    "entryAction": "Suggest a plan",
+    "badge": "Generated by AI",
+    "disclaimer": "The suggestion comes from a language model. Treat it as a hint, not a recommendation — check every item before saving it.",
+    "form": {
+      "goalLabel": "What do you want to achieve?",
+      "goalPlaceholder": "e.g. calmer mornings without the phone",
+      "minutesLabel": "How many minutes a day can you spare?",
+      "timeOfDayLabel": "When does it suit you best?",
+      "preferencesLabel": "Notes (optional)",
+      "preferencesPlaceholder": "e.g. I work shifts, weekends are free",
+      "submit": "Suggest a plan"
+    },
+    "generating": "Putting a plan together…",
+    "remaining": "{{remaining}} generations left today.",
+    "proposal": {
+      "title": "Suggestion",
+      "empty": "The model suggested nothing. Try describing the goal differently.",
+      "accept": "Add to my habits",
+      "regenerate": "Try again",
+      "discard": "Discard",
+      "added": "Added {{added}} habits. You will find them on the Today screen.",
+      "addFailed": "Could not save the habits. Try again."
+    },
+    "item": {
+      "titleLabel": "Name",
+      "startLabel": "Start",
+      "incrementLabel": "Increment",
+      "targetLabel": "Final target",
+      "remove": "Remove from suggestion"
+    },
+    "errors": {
+      "offline": "No internet connection. The plan needs the network.",
+      "timeout": "The model did not answer in time. Try again.",
+      "unauthorized": "Your session expired. Sign in again.",
+      "rateLimited": "You have used your daily generation limit. Come back tomorrow.",
+      "invalidInput": "The goal description is empty or too short.",
+      "notConfigured": "Plan generation is not configured yet.",
+      "upstreamFailed": "The model is not responding right now. Try again in a moment.",
+      "invalidModelOutput": "The model returned something unreadable. Try again.",
+      "unknown": "Something went wrong. Try again."
+    },
+    "suggest": {
+      "label": "Say what you want",
+      "placeholder": "I want… (e.g. to read more in the evening)",
+      "hint": "One sentence. You get a filled-in form — nothing is saved.",
+      "action": "Suggest",
+      "pending": "Looking…",
+      "estimate": "About {{minutes}} min a day.",
+      "applied": "Form filled in. Check the fields before saving.",
+      "outOfScope": "That is outside what Tarento helps with.",
+      "unclear": "I cannot make anything of that. Put it differently, or fill the fields in yourself.",
+      "remaining": "{{remaining}} suggestions left today.",
+      "errors": {
+        "offline": "Suggestions need a connection. You can add a habit by hand.",
+        "rateLimited": "Suggestions come back tomorrow. The form works without them.",
+        "failed": "That did not work. Try again, or fill the fields in by hand."
+      }
+    }
+  },
+  "bookLab": {
+    "entry": "Book Lab",
+    "entryDescription": "Turn your own notes into a small, private protocol fitted to your day.",
+    "entryAction": "Create from notes",
+    "title": "Book Lab",
+    "subtitle": "We work only from your notes. The title and author are private metadata, not a source for AI.",
+    "versioning": "You are creating a new version. The previous version and its history will stay unchanged.",
+    "offline": "The draft stays on this device. Generation needs an internet connection.",
+    "privacy": {
+      "title": "Your notes, not the book text",
+      "description": "Write 3–7 short ideas in your own words. AI receives those ideas and anonymous day-budget context.",
+      "noChapters": "Do not paste whole chapters or long excerpts. Book files cannot be uploaded."
+    },
+    "fields": {
+      "title": "Book title",
+      "author": "Author",
+      "change": "One behaviour change",
+      "changeHint": "What exactly would you like to do differently?",
+      "note": "Idea in your own words",
+      "noteLimit": "Up to 500 characters",
+      "locator": "Optional reference",
+      "locatorPlaceholder": "e.g. chapter 2 or p. 34"
+    },
+    "notes": {
+      "title": "Your ideas",
+      "description": "Add 3 to 7 ideas. Every protocol element will show which note it came from.",
+      "number": "Idea {{number}}",
+      "remove": "Remove idea",
+      "add": "Add another idea"
+    },
+    "generate": "Build a private draft",
+    "validation": {
+      "titleRequired": "Enter the title.",
+      "titleLong": "The title can be at most 160 characters.",
+      "authorRequired": "Enter the author.",
+      "authorLong": "The author can be at most 120 characters.",
+      "changeRequired": "Describe one behaviour change.",
+      "changeLong": "The change can be at most 240 characters.",
+      "noteRequired": "Every idea needs text.",
+      "noteLong": "An idea can be at most 500 characters.",
+      "locatorLong": "A reference can be at most 80 characters.",
+      "notesMin": "Add at least 3 ideas.",
+      "notesMax": "You can add at most 7 ideas."
+    },
+    "diff": {
+      "activePath": "You already have an active path. This draft will not start automatically.",
+      "budgetTitle": "Safe share of your free budget",
+      "budget": "The protocol may use up to {{safe}} min of {{free}} free minutes (60%).",
+      "protocolTitle": "Protocol title",
+      "summary": "Protocol summary",
+      "kind": {
+        "add": "ADD",
+        "replace": "REPLACE",
+        "does_not_fit": "DOES NOT FIT"
+      },
+      "stage": "Stage {{ordinal}}",
+      "rejected": "Rejected",
+      "restore": "Restore",
+      "doesNotFit": "This stage takes {{minutes}} min and exceeds the safe limit of {{safe}} min.",
+      "bandCollision": "There are already other practices in this time band. Check whether the timing still fits.",
+      "stageName": "Stage name",
+      "stageDescription": "Short stage purpose",
+      "minutes": "Minutes per day",
+      "practice": "Recurring practice",
+      "practiceTitle": "Practice name",
+      "why": "Why",
+      "how": "How to do it",
+      "whenHard": "Version for a hard day",
+      "frequency": "Frequency",
+      "band": "Time band",
+      "category": "Category",
+      "fromNotes": "Based on ideas {{notes}}",
+      "noteRef": "Idea {{number}}",
+      "setup": "One-time environment setup",
+      "rejectSetup": "Reject setup",
+      "criterion": "Transition criterion",
+      "minDays": "Minimum days",
+      "maxDays": "Maximum days",
+      "rejectStage": "Reject stage",
+      "fixBeforeSave": "Fix overloaded or incomplete stages before saving.",
+      "save": "Save private protocol",
+      "editNotes": "Back to notes",
+      "discard": "Delete draft"
+    },
+    "fallback": {
+      "title": "No safe draft was created",
+      "outOfScope": "These notes concern an area where Tarento does not create advice. Return to your notes and choose an ordinary behaviour change.",
+      "unsafe": "The answer did not meet the safety rules. Change the notes and try again.",
+      "insufficientBudget": "There is no safe room for another practice in your day right now. Free some budget first.",
+      "error": "Could not prepare the draft. Try again."
+    },
+    "errors": {
+      "save": "Could not save the private protocol.",
+      "archive": "Could not delete the draft. An active protocol must be ended first."
+    },
+    "saved": {
+      "title": "Private protocol saved",
+      "description": "It is not active yet and will not appear in the public catalogue. Before starting, you will see the regular path and budget preview.",
+      "open": "Open protocol",
+      "newVersion": "Create a new version"
+    },
+    "own": {
+      "title": "Your private protocols",
+      "description": "The latest saved versions. They are not visible in the public catalogue.",
+      "open": "Open",
+      "newVersion": "New version",
+      "error": "Could not load your private protocols."
+    },
+    "discard": {
+      "title": "Delete the private draft?",
+      "description": "The notes and inactive protocol will be marked as deleted. This cannot be undone in the app.",
+      "confirm": "Delete draft"
+    }
+  },
+  "conflictRadar": {
+    "title": "Conflict radar",
+    "localOnly": "Notes are compared locally on the Tarento server and are not sent to external AI.",
+    "clear": "No conflicts found. The protocol can proceed to activation.",
+    "error": "Conflicts could not be checked. The protocol will not start without a review.",
+    "type": {
+      "capacity": "No room in this day budget",
+      "execution": "Two practices need the same time band",
+      "rule": "Notes suggest opposite actions"
+    },
+    "capacity": {
+      "detail": "The practice needs {{required}} min, while {{available}} min is safely available."
+    },
+    "execution": {
+      "detail": "“{{incoming}}” and “{{existing}}” fall in the same limited time band."
+    },
+    "rule": {
+      "question": "When does A apply, and when does B apply?",
+      "noteA": "A: {{note}}",
+      "noteB": "B: {{note}}",
+      "saveContext": "Save both contexts"
+    },
+    "context": {
+      "workday": "Workday",
+      "free": "Free day",
+      "nightShift": "Night shift",
+      "care": "Care day",
+      "custom": "Other day type",
+      "morning": "Morning",
+      "afternoon": "Afternoon",
+      "evening": "Evening"
+    },
+    "rejectExisting": "Reject current: {{title}}",
+    "rejectIncoming": "Reject new: {{title}}",
+    "diff": {
+      "collision": "COLLISION",
+      "remove": "REMOVE: {{title}}"
+    },
+    "resolved": {
+      "context": "A: {{contextA}} · B: {{contextB}}"
+    }
+  },
+  "path": {
+    "entry": "A path or protocol runs for a few weeks and keeps to one small change at a time.",
+    "entryAction": "Browse the catalogue",
+    "title": "Paths and protocols",
+    "subtitle": "One at a time. Every stage adds something and gives something back.",
+    "catalog": {
+      "tarento": "Tarento paths",
+      "books": "From books"
+    },
+    "duration": "{{days}} days",
+    "minutes": "{{min}}–{{max}} min a day",
+    "minutesFlat": "{{minutes}} min a day",
+    "stage": "Stage {{ordinal}}: {{name}}",
+    "stageMinutes": "about {{minutes}} min a day",
+    "stageSetup": "Setup: {{setup}}",
+    "stageTransition": "Move on when: {{criterion}}",
+    "current": "You are on this path.",
+    "otherActive": "You are on another path right now. One at a time.",
+    "continue": {
+      "title": "Continue",
+      "progress": "Stage {{current}} of {{total}}",
+      "action": "Continue the path",
+      "error": "Could not load the active path. Try again."
+    },
+    "readings": {
+      "sectionTitle": "Reading for this stage",
+      "currentStage": "Stage {{ordinal}}: {{name}}",
+      "week": "Week {{week}}",
+      "stageOrdinal": "Stage {{ordinal}}",
+      "openLabel": "Open reading: {{title}}",
+      "framing": "What to look for",
+      "sourceText": "Excerpt",
+      "quote": "Short quote from the source",
+      "bodyUnavailable": "The database does not contain the source text for this material. Only the available information is shown.",
+      "finish": "Close the reading",
+      "error": "Could not load the readings for this stage. Try again.",
+      "offline": "No connection. You are seeing the reading downloaded last.",
+      "empty": {
+        "title": "There is no reading for this stage",
+        "description": "The practice works without an additional reading."
+      },
+      "offlineEmpty": {
+        "title": "This reading is not available offline yet",
+        "description": "Open it once while connected to return to it later without a connection."
+      },
+      "readerError": {
+        "title": "Could not open the reading",
+        "description": "Check your connection and try again.",
+        "cached": "Could not refresh the reading. The last downloaded version is shown."
+      },
+      "notFound": {
+        "title": "No such reading",
+        "description": "It may have been moved or withdrawn."
+      },
+      "pointer": {
+        "bibliography": "Where to find it",
+        "notice": "This points to an external source. Its text is not stored in the database."
+      },
+      "source": {
+        "publicDomain": "Public domain",
+        "ownTranslation": "Own translation",
+        "citation": "Citation",
+        "pointer": "Reference",
+        "original": "Original material"
+      }
+    },
+    "protocol": {
+      "provenance": "Protocol source",
+      "sourceType": {
+        "book": "Source type: book"
+      },
+      "edition": "Edition: {{edition}}",
+      "identifier": "Identifier: {{identifier}}",
+      "curatedBy": "Adapted by: {{curator}}",
+      "privateCuratedBy": "Adapted from your notes in Tarento",
+      "review": {
+        "notApplicable": "No review status",
+        "draft": "Draft",
+        "editorial": "Editorially reviewed",
+        "legal": "Editorially and legally reviewed"
+      },
+      "preview": {
+        "title": "Review the protocol before starting",
+        "close": "Close preview",
+        "description": "Each stage introduces at most one practice. The next replaces the previous one instead of growing the list.",
+        "diff": {
+          "add": "ADD",
+          "replace": "REPLACE"
+        },
+        "stage": "Stage {{ordinal}}: {{name}}",
+        "minutes": "{{minutes}} min a day",
+        "adds": "Adds: {{title}}",
+        "retires": "Retires: {{title}}",
+        "noRecurringPractice": "This stage adds no recurring practice.",
+        "practiceMeta": "{{value}} · {{frequency}}",
+        "setupAdded": "ADD · ONE-TIME",
+        "setupRemoved": "REMOVE · ONE-TIME",
+        "setupMeta": "It appears only on the first day of the stage. It creates no streak or reminder.",
+        "setupRemove": "Remove setup",
+        "setupRestore": "Restore setup",
+        "frequency": {
+          "daily": "daily",
+          "weekdays": "on weekdays",
+          "custom": "{{count}} days a week"
+        },
+        "budgetTitle": "Impact on your day budget",
+        "budget": "It starts at {{start}} min and peaks at {{peak}} min out of {{available}} min available. {{remaining}} min remains at the heaviest stage.",
+        "budgetUnknown": "It starts at {{start}} min and peaks at {{peak}} min. Set your day rhythm to compare this with your budget.",
+        "singleActive": "Starting keeps the shared rule: one active path or protocol at a time.",
+        "confirm": "Start the protocol"
+      }
+    },
+    "setup": {
+      "oneTime": "One-time setup",
+      "informational": "It may make starting easier, but it does not block the practice or count toward a streak.",
+      "complete": "Done",
+      "dismiss": "Dismiss without penalty",
+      "completed": "Setup complete. It will not return to the list.",
+      "dismissed": "Setup dismissed with no effect on progress.",
+      "queued": "Your setup decision is waiting for a connection and will save automatically.",
+      "error": "Could not refresh the setup. The last known state is shown."
+    },
+    "empty": {
+      "title": "The catalogue is still empty",
+      "description": "Paths will show up here as soon as they are ready."
+    },
+    "error": "Could not load the paths. Pull down to try again.",
+    "offline": "No connection. You are seeing the path data downloaded last.",
+    "notFound": {
+      "title": "No such path",
+      "description": "It may have changed address or been withdrawn."
+    },
+    "enroll": {
+      "start": "Start",
+      "startLite": "Start the light version",
+      "fits": "This path needs about {{start}} min a day at the start and {{peak}} by the end. Your window is {{minutes}} min. It fits.",
+      "tight": "This path reaches {{peak}} min a day. Your window is {{minutes}} min — it fits, but it will take almost all of it.",
+      "lite": "This path reaches {{peak}} min a day. Your window is {{minutes}} min. I can run a light version — the same practices, smaller numbers.",
+      "blocked": "This path reaches {{peak}} min a day. Your window is {{minutes}} min.",
+      "blockedAlternative": "Start with “{{title}}” — {{minutes}} min a day for {{days}} days.",
+      "blockedAction": "Open “{{title}}”",
+      "blockedNoAlternative": "There is no shorter path in the catalogue right now.",
+      "backToCatalog": "Back to the catalogue",
+      "started": "The path starts today. The practices are already on your list.",
+      "failed": "Could not start the path. Try again.",
+      "optional": "You can skip this",
+      "optionalSkipped": "Skipped at sign-up"
+    },
+    "advance": {
+      "title": "Stage {{ordinal}}: {{name}}.",
+      "titleSlow": "You are moving to stage {{ordinal}}. The last one did not close fully — that changes nothing.",
+      "adds": "Coming in",
+      "removes": "Going out",
+      "confirm": "Let's go",
+      "close": "Close"
+    },
+    "transfer": {
+      "readyTitle": "This stage is ready to review",
+      "readyDescription": "This is a good moment to check the practice in real life — without a quiz or a grade.",
+      "readyCeiling": "The planned stage time has passed. That is not a failure; you can calmly check what happened in real life.",
+      "open": "Check transfer",
+      "question": "Did this practice show up in a real situation where it was meant to help?",
+      "notQuiz": "This is not a book quiz. Only your experience matters.",
+      "answerYes": "Yes",
+      "answerNotYet": "Not yet",
+      "answerNoOpportunity": "There was no opportunity",
+      "noOpportunityHint": "No opportunity is not a failure.",
+      "evidenceLabel": "One example sentence (optional)",
+      "evidencePlaceholder": "What happened in a specific situation?",
+      "evidenceHint": "{{current}}/{{max}} characters. This sentence stays private.",
+      "close": "Close the check",
+      "afterAdvance": "If you move on",
+      "addsPractice": "Adds: {{practice}}",
+      "retiresPractice": "Retires: {{practice}}",
+      "queued": "Your answer is waiting for a connection and will be sent automatically.",
+      "error": "Could not save the answer. Try again.",
+      "notYetNeutral": "“Not yet” blocks nothing and lowers no score.",
+      "stay": "Stay at this stage",
+      "downshift": "Make the practice smaller",
+      "advanceConsciously": "Move on consciously",
+      "noOpportunityNeutral": "You can extend the stage without affecting your streak.",
+      "extend": "Extend by one week",
+      "finish": "Continue to closing",
+      "advance": "Move on",
+      "chooseAnswer": "Choose one answer to see neutral decisions.",
+      "downshiftOffline": "No connection. You will see a safe local reduction; the save will wait for the network."
+    },
+    "confirmation": {
+      "sectionTitle": "Implementation confirmations",
+      "title": "Implementation confirmation",
+      "open": "Open confirmation",
+      "close": "Close confirmation",
+      "source": "Source",
+      "completedStagesCount": "Completed stages: {{count}}",
+      "stages": "Completed stages",
+      "execution": "How often it was done",
+      "frequency": "Done on {{completed}} of {{scheduled}} planned opportunities",
+      "kept": "Practice kept",
+      "retired": "Practice retired",
+      "transfer": "Reported transfer",
+      "answersRemoved": "Private answers have been removed.",
+      "stageFallback": "Protocol stage",
+      "userSentence": "Your example",
+      "noCausality": "Frequent completion and reported transfer are separate facts. This summary does not establish causality.",
+      "deleteAnswers": "Delete my answers",
+      "deleteTitle": "Delete private answers?",
+      "deleteMessage": "Examples will disappear from the confirmation and export. System history keeps only an archived trace without text.",
+      "deleteConfirm": "Delete answers",
+      "error": "Could not load implementation confirmations. Try again."
+    },
+    "retire": "{{practice}} leaves the list. You have it.",
+    "retireMany": "These practices leave the list. You have them.",
+    "details": {
+      "origin": "From: {{path}}, stage {{stage}}"
+    },
+    "pause": {
+      "action": "Pause the path",
+      "done": "Path paused. It comes back exactly where you left it.",
+      "state": "Path paused.",
+      "failed": "Could not pause the path. Try again."
+    },
+    "resume": {
+      "action": "Resume",
+      "done": "You are back at stage {{stage}}. The first week is lighter.",
+      "failed": "Could not resume the path. Try again."
+    },
+    "end": {
+      "action": "End the path",
+      "abandonedTitle": "You are ending the path.",
+      "completedTitle": "{{path}} — the end.",
+      "question": "What about the practices?",
+      "keep": "Leave them on the list",
+      "remove": "Take them off",
+      "close": "Close",
+      "kept": "The practices stay on your list.",
+      "removed": "Practices taken off the list. The history stays.",
+      "failed": "Could not close the path. Try again."
+    },
+    "repeat": {
+      "blocked": "You did this path recently. Pick another one."
+    },
+    "fit": {
+      "title": "Fit",
+      "close": "Close",
+      "lite": "Light version: smaller numbers, no extra practices.",
+      "skip": "Skipping: {{title}}",
+      "adjust": "{{title}} — starting at {{value}} instead of {{original}}",
+      "confirm": "Start",
+      "withoutFit": "Without the fit"
+    }
+  },
+  "letter": {
+    "delivered": {
+      "title": "A year ago you wrote to yourself.",
+      "close": "Close"
+    },
+    "write": {
+      "title": "A letter to yourself in a year",
+      "description": "One or two sentences. It comes back in a year, with no notification — one day it will simply be on your list.",
+      "placeholder": "What do you want to tell yourself a year from now?",
+      "save": "Save the letter",
+      "skip": "No letter",
+      "failed": "Could not save the letter. Try again."
+    }
+  },
+  "experiments": {
+    "title": "Personal experiment",
+    "empty": "Compare two versions of this habit using your own opportunities.",
+    "targetWithUnit": "{{value}} {{unit}}",
+    "hypothesis": {
+      "time": "Time of day A/B",
+      "timeDescription": "Only the time changes: morning, afternoon, or evening.",
+      "target": "Target size A/B",
+      "targetDescription": "Only the starting amount changes."
+    },
+    "form": {
+      "description": "Choose one thing to compare. A always comes before B — there is no daily randomization.",
+      "variantA": "Time in block A",
+      "variantB": "Time in block B",
+      "variantATarget": "Target in block A",
+      "variantBTarget": "Target in block B",
+      "targetError": "Enter a number greater than zero.",
+      "targetDifferentError": "Variant B must differ from A.",
+      "oneVariableOnly": "The schedule, progression, and other settings will not change.",
+      "reminderQuestion": "Adjust the existing reminder too?",
+      "reminderKeep": "Keep the reminder unchanged",
+      "reminderKeepDescription": "This is the default setting.",
+      "reminderAdjust": "Adjust my reminder",
+      "reminderAdjustDescription": "During each block, the reminder moves to 08:00, 14:00, or 20:00 for the chosen time.",
+      "reminderDisabledDescription": "This habit has no reminder. The experiment will not enable one.",
+      "preview": "Show the plan"
+    },
+    "plan": {
+      "description": "Two consecutive blocks with 7 comparable opportunities each. Dates may move when a day is neutral.",
+      "blockA": "Block A",
+      "blockB": "Block B",
+      "range": "{{count}} opportunities · {{from}} – {{to}}",
+      "neutralDays": "Rest days, quiet week, and overflow do not count as opportunities."
+    },
+    "status": {
+      "draft": "The plan is ready to review.",
+      "completed": "Both blocks are complete. Choose a setting to keep.",
+      "block": "Block {{block}} · {{current}}/{{total}} opportunities",
+      "activeDescription": "Only comparable opportunities count. Pausing restores the earlier setting.",
+      "opportunities": "{{current}}/{{total}} opportunities in this block",
+      "progressAccessibility": "{{current}} of {{total}} comparable opportunities",
+      "queued": "The change is queued offline and will be sent when the connection returns."
+    },
+    "result": {
+      "score": "{{completed}}/{{expected}}",
+      "aMoreOften": "In this experiment, A fit more often — by {{difference}} percentage points.",
+      "bMoreOften": "In this experiment, B fit more often — by {{difference}} percentage points.",
+      "tie": "In this experiment, A and B fit equally often.",
+      "tooEarly": "There are not enough comparable opportunities to describe a difference yet.",
+      "orderLimitation": "Block A came first and B second, so order itself may have mattered.",
+      "sampleLimitation": "This is a small sample from one short period.",
+      "conditionsLimitation": "Sleep, workload, and other conditions may have differed between blocks.",
+      "choose": "Which setting should stay?",
+      "decisionSaved": "The choice was saved as a normal habit revision."
+    },
+    "actions": {
+      "create": "Plan an A/B comparison",
+      "details": "Experiment details",
+      "seeResult": "See the result",
+      "start": "Start block A",
+      "pause": "Pause",
+      "resume": "Resume",
+      "cancel": "Stop the experiment",
+      "cancelDraft": "Discard the plan",
+      "chooseA": "Keep variant A",
+      "chooseB": "Keep variant B",
+      "chooseOriginal": "Return to the earlier setting",
+      "close": "Close"
+    },
+    "errors": {
+      "offline": "You are offline. Saved actions will wait; a new plan needs a connection.",
+      "quietWeek": "An experiment cannot start during quiet week.",
+      "notEnoughOpportunities": "There are not 14 comparable opportunities in the next 90 days.",
+      "pathConflict": "A path will soon change this habit. Return to the experiment after that change.",
+      "anotherOpen": "Finish or stop the open experiment first.",
+      "reminderUnavailable": "The experiment cannot enable a reminder on its own.",
+      "generic": "The experiment could not be reconciled. Try again."
+    }
+  },
+  "dayPlural": {
+    "sun": "on Sundays",
+    "mon": "on Mondays",
+    "tue": "on Tuesdays",
+    "wed": "on Wednesdays",
+    "thu": "on Thursdays",
+    "fri": "on Fridays",
+    "sat": "on Saturdays"
+  },
+  "journal": {
+    "field": {
+      "label": "One line about today",
+      "placeholder": "One line about today (optional)"
+    },
+    "recall": {
+      "year": "A year ago you wrote:",
+      "quarter": "Three months ago you wrote:",
+      "month": "A month ago you wrote:"
+    }
+  }
+}

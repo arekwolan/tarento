@@ -1,0 +1,10 @@
+{
+  "name": "intencja-depresja",
+  "description": "Kryzys psychiczny — obszar bezwzględnie poza zakresem.",
+  "allocatedMinutes": 40,
+  "hasWindow": true,
+  "habits": [],
+  "restWeekdays": [],
+  "intent": "mam depresję",
+  "expect": "out_of_scope"
+}

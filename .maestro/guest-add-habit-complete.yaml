@@ -1,0 +1,59 @@
+# Ścieżka krytyczna: wejście na konto, dodanie nawyku, odhaczenie go.
+#
+# Logowanie idzie przez tryb gościa (signInAnonymously), bo to jedyna metoda,
+# którą test automatyczny domknie sam — magic link i potwierdzenie rejestracji
+# wymagają skrzynki pocztowej.
+#
+# Uruchomienie: maestro test .maestro/guest-add-habit-complete.yaml
+# Wymaga uruchomionego emulatora albo urządzenia z zainstalowanym
+# development buildem i działającego lokalnego Supabase (npm run db:start).
+appId: com.tarento.app
+name: Gość zakłada nawyk i go odhacza
+---
+- launchApp:
+    clearState: true
+    permissions:
+      notifications: deny
+
+# 1. Ekran powitalny → tryb gościa
+- assertVisible: 'Wypróbuj bez konta'
+- tapOn: 'Wypróbuj bez konta'
+
+# 2. Onboarding pomijamy — nawyk dodamy ręcznie, o to chodzi w tym teście
+- assertVisible: 'Od czego zaczynamy?'
+- tapOn: 'Pomiń'
+- assertVisible: 'Wybierz od jednego do trzech'
+- tapOn: 'Pomiń'
+- assertVisible: 'Przypomnienie o stałej porze'
+- tapOn: 'Nie teraz'
+
+# 3. Pusty ekran główny z wezwaniem do dodania nawyku
+- assertVisible: 'Nic na dziś'
+- tapOn: 'Dodaj pierwszy nawyk'
+
+# 4. Krok 1: co robisz
+- assertVisible: 'Co robisz?'
+- tapOn:
+    id: 'Nazwa'
+- inputText: 'Test E2E'
+- hideKeyboard
+- tapOn: 'Dalej'
+
+# 5. Krok 2: ile
+- assertVisible: 'Ile?'
+- tapOn: 'Minuty'
+- tapOn: 'Dalej'
+
+# 6. Krok 3: kiedy
+- assertVisible: 'Kiedy?'
+- tapOn: 'Codziennie'
+- tapOn: 'Zapisz nawyk'
+
+# 7. Nawyk widoczny na liście na dziś
+- assertVisible: 'Test E2E'
+- assertVisible: '0 z 1 wykonanych'
+
+# 8. Odhaczenie
+- tapOn: 'Test E2E'
+- assertVisible: '1 z 1 wykonanych'
+- assertVisible: 'Na dziś wszystko'

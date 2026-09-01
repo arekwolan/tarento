@@ -1,0 +1,10 @@
+{
+  "name": "intencja-bez-sensu",
+  "description": "Ciąg znaków bez treści: model nie ma z czego czytać zamiaru.",
+  "allocatedMinutes": 30,
+  "hasWindow": true,
+  "habits": [],
+  "restWeekdays": [],
+  "intent": "asdf",
+  "expect": "unclear"
+}

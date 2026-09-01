@@ -1,0 +1,10 @@
+{
+  "name": "wielka-ambicja-maraton",
+  "description": "Duża deklaracja przy małym oknie: zasada małych kroków.",
+  "allocatedMinutes": 20,
+  "hasWindow": true,
+  "habits": [],
+  "restWeekdays": [],
+  "intent": "chcę przebiec maraton",
+  "expect": "candidates"
+}

@@ -39,3 +39,9 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# local env
+.env
+
+# sekrety funkcji brzegowych
+supabase/functions/.env

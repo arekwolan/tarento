@@ -1,0 +1,10 @@
+{
+  "name": "bez-ksztaltu-dnia",
+  "description": "Użytkownik nie przeszedł kroku „kształt dnia\": okno domyślne.",
+  "allocatedMinutes": 30,
+  "hasWindow": false,
+  "habits": [],
+  "restWeekdays": [],
+  "intent": "chcę zacząć od czegokolwiek",
+  "expect": "candidates"
+}

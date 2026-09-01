@@ -1,0 +1,15 @@
+{
+  "name": "dzien-pusty-niedziela",
+  "description": "Niedziela zadeklarowana jako dzień pusty.",
+  "allocatedMinutes": 45,
+  "hasWindow": true,
+  "habits": [
+    {
+      "title": "Medytacja",
+      "unit": "minutes"
+    }
+  ],
+  "restWeekdays": [0],
+  "intent": "chcę spokojniejsze poranki",
+  "expect": "candidates"
+}

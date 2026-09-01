@@ -1,0 +1,59 @@
+{
+  "name": "dwanascie-nawykow",
+  "description": "Lista, która już się rozrosła: dwanaście pozycji.",
+  "allocatedMinutes": 60,
+  "hasWindow": true,
+  "habits": [
+    {
+      "title": "Czytanie",
+      "unit": "pages"
+    },
+    {
+      "title": "Medytacja",
+      "unit": "minutes"
+    },
+    {
+      "title": "Spacer",
+      "unit": "minutes"
+    },
+    {
+      "title": "Pompki",
+      "unit": "reps"
+    },
+    {
+      "title": "Dziennik",
+      "unit": "none"
+    },
+    {
+      "title": "Zimny prysznic",
+      "unit": "seconds"
+    },
+    {
+      "title": "Rozciąganie",
+      "unit": "minutes"
+    },
+    {
+      "title": "Nauka niemieckiego",
+      "unit": "minutes"
+    },
+    {
+      "title": "Telefon do rodziców",
+      "unit": "count"
+    },
+    {
+      "title": "Porządek na biurku",
+      "unit": "minutes"
+    },
+    {
+      "title": "Woda",
+      "unit": "count"
+    },
+    {
+      "title": "Bez telefonu w łóżku",
+      "unit": "none"
+    }
+  ],
+  "restWeekdays": [],
+  "intent": "chcę lepiej zaczynać dzień",
+  "expect": "candidates"
+}

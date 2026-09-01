@@ -1,0 +1,1426 @@
+{
+  "common": {
+    "appName": "Tarento",
+    "cancel": "Anuluj",
+    "back": "Wróć",
+    "retry": "Spróbuj ponownie",
+    "loading": "Wczytywanie…",
+    "undo": "Cofnij",
+    "habit": "nawyk"
+  },
+  "tabs": {
+    "today": "Dziś",
+    "stats": "Postępy",
+    "library": "Biblioteka",
+    "settings": "Ustawienia"
+  },
+  "auth": {
+    "welcome": {
+      "title": "Tarento",
+      "tagline": "Jedna lista na dziś i seria, która rośnie z każdym odhaczonym dniem. Bez systemu do nauczenia się — tylko to, co postanowiłeś dzisiaj zrobić.",
+      "guestCta": "Wypróbuj bez konta",
+      "guestNote": "Konto założysz później, nic nie przepadnie.",
+      "haveAccount": "Mam już konto"
+    },
+    "signIn": {
+      "title": "Zaloguj się",
+      "subtitle": "Wróć do swoich nawyków.",
+      "submit": "Zaloguj się",
+      "orDivider": "albo",
+      "magicLink": "Wyślij link do logowania",
+      "magicLinkSent": "Wysłaliśmy link na podany adres. Otwórz go na tym urządzeniu.",
+      "forgotPassword": "Nie pamiętam hasła",
+      "noAccount": "Nie mam jeszcze konta"
+    },
+    "signUp": {
+      "title": "Załóż konto",
+      "subtitle": "Zacznij od jednej rzeczy dziennie.",
+      "submit": "Załóż konto",
+      "confirmationSent": "Sprawdź skrzynkę i kliknij link potwierdzający, żeby dokończyć rejestrację.",
+      "haveAccount": "Mam już konto"
+    },
+    "forgotPassword": {
+      "title": "Reset hasła",
+      "subtitle": "Wyślemy link, którym ustawisz nowe hasło.",
+      "submit": "Wyślij link",
+      "sent": "Jeśli konto o tym adresie istnieje, link już do niego poleciał.",
+      "backToSignIn": "Wróć do logowania"
+    },
+    "fields": {
+      "email": "Adres e-mail",
+      "password": "Hasło",
+      "passwordConfirmation": "Powtórz hasło",
+      "passwordHint": "Minimum 8 znaków."
+    },
+    "guest": {
+      "badge": "Tryb gościa",
+      "upgradeTitle": "Zapisz swoje konto",
+      "upgradeDescription": "Dane trzymamy na tym urządzeniu w koncie tymczasowym. Podaj adres i hasło, a przypniemy je do tego samego konta — nawyki i serie zostają.",
+      "upgradeSubmit": "Zapisz konto",
+      "upgradeSent": "Wysłaliśmy link potwierdzający. Hasło działa od razu, adres po kliknięciu w link.",
+      "signOutWarning": "Wylogowanie z trybu gościa kasuje dostęp do danych z tego urządzenia. Najpierw zapisz konto."
+    },
+    "validation": {
+      "emailRequired": "Podaj adres e-mail.",
+      "emailInvalid": "To nie wygląda na adres e-mail.",
+      "passwordRequired": "Podaj hasło.",
+      "passwordTooShort": "Hasło musi mieć co najmniej 8 znaków.",
+      "passwordTooLong": "Hasło może mieć najwyżej 72 znaki.",
+      "passwordsDoNotMatch": "Hasła się nie zgadzają."
+    },
+    "errors": {
+      "network": "Brak połączenia z internetem. Sprawdź sieć i spróbuj ponownie.",
+      "serverUnavailable": "Serwer chwilowo nie odpowiada. Spróbuj za moment.",
+      "invalidCredentials": "Nieprawidłowy adres e-mail lub hasło.",
+      "emailNotConfirmed": "Adres nie został jeszcze potwierdzony. Sprawdź skrzynkę.",
+      "emailExists": "Konto z tym adresem już istnieje.",
+      "emailInvalid": "Ten adres e-mail został odrzucony przez serwer.",
+      "emailNotAuthorized": "Na ten adres nie możemy wysyłać wiadomości.",
+      "weakPassword": "To hasło jest zbyt słabe. Wybierz dłuższe.",
+      "samePassword": "Nowe hasło musi się różnić od poprzedniego.",
+      "linkExpired": "Link wygasł albo został już użyty. Poproś o nowy.",
+      "tooManyEmails": "Za dużo wiadomości w krótkim czasie. Odczekaj chwilę.",
+      "tooManyRequests": "Za dużo prób. Odczekaj chwilę i spróbuj ponownie.",
+      "signupDisabled": "Rejestracja jest teraz wyłączona.",
+      "guestDisabled": "Tryb gościa jest teraz niedostępny.",
+      "providerDisabled": "Ta metoda logowania jest niedostępna.",
+      "userBanned": "To konto zostało zablokowane.",
+      "userNotFound": "Nie znaleziono takiego konta.",
+      "sessionExpired": "Sesja wygasła. Zaloguj się ponownie.",
+      "validationFailed": "Dane nie przeszły weryfikacji. Sprawdź formularz.",
+      "unknown": "Coś poszło nie tak. Spróbuj ponownie."
+    }
+  },
+  "onboarding": {
+    "skip": "Pomiń",
+    "next": "Dalej",
+    "finish": "Zaczynajmy",
+    "saving": "Zapisywanie…",
+    "error": "Coś poszło nie tak. Spróbuj jeszcze raz.",
+    "dayShape": {
+      "title": "Kształt Twojego dnia",
+      "description": "Trzy pytania. Zajmą chwilę, a bez nich nie wiemy, ile miejsca naprawdę masz.",
+      "skip": "Pominę to",
+      "offline": "Nie ma połączenia. Zapis poczeka, aż sieć wróci.",
+      "step1": {
+        "title": "Kiedy zaczynasz i kończysz dzień?",
+        "wake": "Pobudka",
+        "sleep": "Sen",
+        "earlier": "Wcześniej",
+        "later": "Później"
+      },
+      "step2": {
+        "title": "Kiedy w dni robocze jesteś zajęty?",
+        "hint": "Przesuń krawędzie, jeśli doliczasz dojazd.",
+        "add": "Dodaj kolejny blok",
+        "remove": "Usuń",
+        "range": "{{start}}–{{end}}",
+        "blockStart": "Początek zajętości",
+        "blockEnd": "Koniec zajętości"
+      },
+      "step3": {
+        "title": "Ile chcesz dać sobie dziennie na siebie?",
+        "option": "{{minutes}} min",
+        "window": "Twoje okno: {{minutes}} minut dziennie.",
+        "windowTight": "W dni robocze zmieści się {{minutes}} minut. W weekend więcej.",
+        "windowNone": "W dni robocze nie zostaje nic. W weekend więcej."
+      },
+      "workdayName": "Dzień roboczy",
+      "freeName": "Wolne"
+    },
+    "step1": {
+      "title": "Od czego zaczynamy?",
+      "description": "Wybierz obszar, który jest teraz dla Ciebie najważniejszy. Podpowiemy nawyki pasujące do niego — resztę dołożysz później.",
+      "focus": "Skupienie",
+      "focusDescription": "Praca bez rozpraszaczy, jedna rzecz naraz.",
+      "mindfulness": "Spokój",
+      "mindfulnessDescription": "Wyciszenie, oddech, mniej ekranu.",
+      "health": "Zdrowie",
+      "healthDescription": "Ruch, sen, energia na co dzień.",
+      "learning": "Nauka",
+      "learningDescription": "Czytanie, notatki, nowe umiejętności."
+    },
+    "step2": {
+      "title": "Wybierz od jednego do trzech",
+      "description": "Zacznij od małej liczby. Kolejne dołożysz, gdy te wejdą w krew.",
+      "selected": "Wybrano {{selected}} z {{max}}",
+      "empty": "Nie mamy szablonów dla tego obszaru. Nawyk dodasz ręcznie po zakończeniu."
+    },
+    "step3": {
+      "title": "Przypomnienie o stałej porze",
+      "description": "Nawyk łatwiej się utrzymuje, gdy ma swoją godzinę. Wyślemy jedno krótkie powiadomienie dziennie — nic poza tym.",
+      "whyOne": "Bez powiadomień marketingowych.",
+      "whyTwo": "Możesz wyłączyć je w każdej chwili w ustawieniach systemu.",
+      "timeLabel": "O której?",
+      "allow": "Włącz przypomnienia",
+      "later": "Nie teraz",
+      "denied": "Powiadomienia są wyłączone w ustawieniach systemu. Nawyki będą działać bez nich."
+    }
+  },
+  "today": {
+    "title": "Dziś",
+    "subtitle": "Jedna lista. Tyle wystarczy.",
+    "empty": {
+      "title": "Nic na dziś",
+      "description": "Dodaj pierwszy nawyk, a pojawi się tutaj każdego ranka.",
+      "action": "Dodaj nawyk"
+    },
+    "greeting": {
+      "morning": "Dzień dobry",
+      "afternoon": "Dzień dobry",
+      "evening": "Dobry wieczór"
+    },
+    "progress": {
+      "label": "{{done}} z {{total}} wykonanych",
+      "accessibility": "Postęp dnia: {{done}} z {{total}}"
+    },
+    "window": {
+      "total": "Twoje okno: {{minutes}} minut.",
+      "left": "Zostało {{minutes}} minut z Twojego okna."
+    },
+    "dayMenu": {
+      "hint": "Otwiera opcje dnia."
+    },
+    "groups": {
+      "morning": "Rano",
+      "afternoon": "Po południu",
+      "evening": "Wieczorem",
+      "anytime": "Bez pory"
+    },
+    "showAll": "Pokaż wszystko",
+    "task": {
+      "progression": "+{{delta}} względem poprzedniego dnia",
+      "streak": "{{days}} dni z rzędu",
+      "skip": "Pomiń dziś",
+      "unskip": "Cofnij pominięcie",
+      "skipped": "Pominięte dzisiaj",
+      "toggleHint": "Dotknij, żeby odhaczyć. Przytrzymaj, żeby zobaczyć szczegóły.",
+      "completed": "Wykonane",
+      "notCompleted": "Do zrobienia",
+      "streakShort": "{{days}} dni"
+    },
+    "allDone": {
+      "title": "Na dziś wszystko",
+      "description": "Zamknij aplikację ze spokojną głową. Jutro znowu tu będzie."
+    },
+    "offline": {
+      "banner": "Brak połączenia. Zmiany zapiszą się, gdy sieć wróci."
+    },
+    "details": {
+      "close": "Zamknij",
+      "schedule": "Harmonogram",
+      "scheduleDaily": "Codziennie",
+      "scheduleWeekdays": "Dni robocze",
+      "scheduleCustom": "Wybrane dni",
+      "startedOn": "Start: {{date}}",
+      "targetToday": "Cel na dziś",
+      "currentStreak": "Seria",
+      "longestStreak": "Najdłuższa seria",
+      "days": "{{days}} dni",
+      "source": "Za: {{book}}",
+      "noteLabel": "Notatka",
+      "notePlaceholder": "Jak dzisiaj poszło?",
+      "noteDisabled": "Notatkę dodasz po odhaczeniu albo pominięciu.",
+      "noteSave": "Zapisz notatkę",
+      "edit": "Edytuj nawyk"
+    },
+    "error": {
+      "load": "Nie udało się odświeżyć listy. Pokazujemy ostatnie znane dane."
+    },
+    "toast": {
+      "done": "Odhaczone",
+      "undone": "Cofnięte",
+      "skipped": "Pominięte na dziś",
+      "unskipped": "Wróciło na listę"
+    }
+  },
+  "rest": {
+    "today": {
+      "title": "Dziś nic nie trzeba.",
+      "showList": "Pokaż listę",
+      "make": "Zrób dziś dzień pusty",
+      "undone": "Dzień pusty cofnięty"
+    },
+    "settings": {
+      "title": "Dzień pusty",
+      "hint": "W ten dzień aplikacja nie prosi o nic. Seria się nie zrywa.",
+      "error": "Nie udało się zapisać. Spróbuj jeszcze raz."
+    },
+    "dayLabel": "dzień pusty"
+  },
+  "stats": {
+    "title": "Postępy",
+    "empty": {
+      "title": "Wracaj za kilka dni",
+      "description": "Wykresy potrzebują historii. Odhaczaj przez kilka dni, a pojawi się tu coś do oglądania."
+    },
+    "subtitle": "Jak to szło przez ostatnie tygodnie.",
+    "heatmap": {
+      "title": "Ostatnie 12 tygodni",
+      "legendLess": "mniej",
+      "legendMore": "więcej",
+      "cell": "{{date}}: {{level}}",
+      "cellToday": "{{date}}: dziś, dzień jeszcze trwa",
+      "level": {
+        "empty": "nic nie było zaplanowane",
+        "none": "nic odhaczonego",
+        "quarter": "odhaczone do jednej czwartej",
+        "half": "odhaczone do połowy",
+        "most": "odhaczona większość",
+        "all": "odhaczone wszystko"
+      }
+    },
+    "streak": {
+      "title": "Serie",
+      "current": "Aktualna",
+      "longest": "Najdłuższa",
+      "days": "{{days}} dni"
+    },
+    "adherence": {
+      "title": "Skuteczność",
+      "last7": "Ostatnie 7 dni",
+      "last30": "Ostatnie 30 dni"
+    },
+    "habits": {
+      "title": "Nawyki",
+      "last30": "{{completed}} z {{scheduled}} w 30 dni",
+      "streak": "Seria: {{days}} dni"
+    },
+    "built": {
+      "title": "Nawyki zbudowane",
+      "description": "Nawyki, których nie musisz już odhaczać."
+    },
+    "observation": {
+      "weekday": "Przez ostatnie tygodnie najlepiej szło Ci {{best}}, najgorzej {{worst}}.",
+      "longestHabit": "{{title}} robisz od {{days}} dni.",
+      "timeOfDay": "Najlepiej wychodzi Ci {{band}}.",
+      "fullDays": "{{count}} dni w tym miesiącu domknąłeś w całości.",
+      "tooEarly": "Za wcześnie na wnioski. Wróć za tydzień.",
+      "bands": {
+        "morning": "rano",
+        "afternoon": "po południu",
+        "evening": "wieczorem"
+      }
+    },
+    "pace": {
+      "window": "z ostatnich {{total}} dni",
+      "longest": "Najdłuższa seria: {{days}} dni.",
+      "accessibility": "{{done}} z ostatnich {{total}} dni domkniętych w całości."
+    },
+    "forecast": {
+      "line": "{{title}}: przy obecnym tempie osiągniesz {{target}}{{unit}} około {{date}}.",
+      "title": "Prognoza"
+    },
+    "dayUndo": {
+      "close": "Zamknij",
+      "hint": "Przytrzymaj, żeby odznaczyć ten dzień",
+      "empty": "Tego dnia nic nie było odhaczone.",
+      "statusDone": "odhaczone",
+      "statusSkipped": "pominięte",
+      "action": "Odznacz wszystko z tego dnia",
+      "note": "Seria przeliczy się na nowo.",
+      "toast": "Dzień odznaczony."
+    }
+  },
+  "selfKnowledge": {
+    "title": "Instrukcja obsługi siebie",
+    "description": "Prywatne hipotezy oparte na porównywalnych okazjach z Twojej historii. To wskazówki do zaakceptowania, nie profil ani diagnoza.",
+    "empty": "Na razie nie ma dość porównywalnych danych. Sprawdzenie nie tworzy wniosku na siłę.",
+    "noVisibleRules": "Nie ma teraz reguł wymagających decyzji.",
+    "error": "Nie udało się sprawdzić prywatnych reguł. Spróbuj ponownie.",
+    "evidence": "{{count}} okazji · {{from}}–{{to}} · algorytm {{version}}",
+    "caution": "Potraktuj to jako wskazówkę, nie pewnik. Wynik opisuje współwystępowanie, nie przyczynę.",
+    "reviewRequired": "Nowsze dane przeczą tej regule. Oryginalny dowód został zachowany — zdecyduj, czy nadal chcesz ją stosować.",
+    "deleted": "Reguła usunięta z Twojej instrukcji.",
+    "types": {
+      "time_of_day": "Pora dnia",
+      "target_size": "Rozmiar celu",
+      "day_type": "Typ dnia",
+      "friction": "Powtarzalne tarcie",
+      "minimal_version": "Wersja minimalna",
+      "revision_outcome": "Przed i po zmianie"
+    },
+    "statement": {
+      "comparison": "Dla „{{habit}}” wariant {{preferred}} pojawiał się częściej: {{preferredCompleted}}/{{preferredTotal}} wobec {{comparisonCompleted}}/{{comparisonTotal}} dla wariantu {{comparison}}.",
+      "friction": "Przy „{{habit}}” przeszkoda „{{reason}}” pojawiła się {{count}} razy. Warto uwzględnić ją przy następnej zmianie konstrukcji nawyku."
+    },
+    "values": {
+      "morning": "rano",
+      "afternoon": "po południu",
+      "evening": "wieczorem",
+      "smaller": "mniejszy cel",
+      "larger": "większy cel",
+      "workday": "dzień roboczy",
+      "free": "dzień wolny",
+      "nightShift": "dyżur nocny",
+      "care": "dzień opieki",
+      "custom": "własny typ dnia",
+      "forgot": "zapomniałem",
+      "noTime": "nie miałem czasu",
+      "tooBig": "krok był za duży",
+      "wrongTime": "zła pora",
+      "environment": "brak przygotowania lub środowiska",
+      "notToday": "dziś nie pasowało",
+      "minimal": "wersja minimalna",
+      "standard": "wersja standardowa",
+      "before": "przed zmianą",
+      "after": "po zmianie"
+    },
+    "actions": {
+      "analyze": "Sprawdź moje dane",
+      "recheck": "Sprawdź ponownie",
+      "accept": "Dodaj do mojej instrukcji",
+      "reject": "Nie przyjmuję tej reguły",
+      "keepAfterReview": "Zostaw po ponownym sprawdzeniu",
+      "expire": "Oznacz jako nieaktualną",
+      "delete": "Usuń tę regułę"
+    },
+    "context": {
+      "title": "Kontekst z Twojej instrukcji",
+      "description": "Tylko zaakceptowane reguły. Są widoczne w podglądzie i nie zmieniają planu automatycznie.",
+      "included": "Uwzględniono Twoją regułę dla „{{habit}}”: {{preferred}}.",
+      "disable": "Wyłącz dla tego podglądu",
+      "enable": "Uwzględnij w tym podglądzie",
+      "enabled": "uwzględniona",
+      "disabled": "wyłączona",
+      "accessibility": "Reguła w podglądzie: {{state}}"
+    }
+  },
+  "library": {
+    "title": "Biblioteka",
+    "offline": "Brak połączenia. Widzisz ostatnio pobraną zawartość Biblioteki.",
+    "meta": "{{author}} · {{meta}}",
+    "sections": {
+      "continue": {
+        "error": "Nie udało się wczytać aktywnej ścieżki. Pozostałe części Biblioteki nadal są dostępne.",
+        "offlineUnavailable": "Aktywna ścieżka nie była jeszcze pobrana na to urządzenie. Połącz się z siecią, aby ją otworzyć."
+      },
+      "start": {
+        "title": "Zacznij",
+        "description": "Wybierz jedną ścieżkę albo przygotuj protokół z własnych notatek.",
+        "catalog": "Przejrzyj ścieżki i protokoły",
+        "bookLab": "Utwórz protokół z notatek"
+      },
+      "tools": {
+        "title": "Narzędzia do działania",
+        "description": "Zacznij od gotowego szablonu albo jednego zdania o tym, czego potrzebujesz.",
+        "intentTitle": "Sugestia z intencji",
+        "intentDescription": "Jedno wejście prowadzi do propozycji i zwykłego formularza nawyku. Nic nie zapisze się bez Twojej decyzji.",
+        "intentAction": "Opisz, co chcesz zmienić",
+        "templates": "Szablony nawyków",
+        "error": "Nie udało się wczytać szablonów. Pozostałe sekcje działają normalnie.",
+        "refreshError": "Nie udało się odświeżyć szablonów. Pokazujemy ostatnio pobraną wersję."
+      },
+      "reflection": {
+        "title": "Do refleksji",
+        "description": "Twoje cytaty, doręczone listy i materiały zdjęte z bieżącej listy.",
+        "letters": "Listy do siebie",
+        "error": "Nie udało się wczytać materiałów do refleksji. Pozostałe sekcje działają normalnie.",
+        "refreshError": "Nie udało się odświeżyć części materiałów. Pokazujemy to, co jest zapisane na urządzeniu.",
+        "emptyTitle": "Nie ma jeszcze materiałów do refleksji",
+        "emptyDescription": "Ulubione cytaty i doręczone listy pojawią się tutaj z czasem."
+      },
+      "completed": {
+        "title": "Zakończone",
+        "show": "Pokaż zakończone ({{count}})",
+        "hide": "Ukryj zakończone ({{count}})",
+        "open": "Otwórz historię ścieżki",
+        "empty": "Nie masz jeszcze zakończonych ścieżek ani protokołów.",
+        "error": "Nie udało się wczytać historii zakończonych ścieżek."
+      }
+    },
+    "empty": {
+      "title": "Biblioteka jest pusta",
+      "description": "Gotowe zestawy nawyków i cytaty trafią tutaj."
+    },
+    "tabs": {
+      "templates": "Szablony",
+      "quotes": "Cytaty"
+    },
+    "filterAll": "Wszystkie",
+    "template": {
+      "add": "Dodaj do moich nawyków",
+      "source": "Za: {{book}}",
+      "preview": "Podgląd"
+    },
+    "quotes": {
+      "today": "Cytat dnia",
+      "favorites": "Ulubione",
+      "history": "Historia",
+      "emptyFavorites": "Nic tu jeszcze nie ma. Serduszko przy cytacie dnia dodaje go do tej listy.",
+      "emptyHistory": "Historia zapełni się sama, dzień po dniu."
+    },
+    "emptyTemplates": {
+      "title": "Brak szablonów",
+      "description": "W tej kategorii nie ma jeszcze nic do pokazania."
+    }
+  },
+  "settings": {
+    "title": "Ustawienia",
+    "appearance": {
+      "title": "Wygląd",
+      "description": "Domyślnie aplikacja podąża za motywem systemu.",
+      "system": "Jak w systemie",
+      "light": "Jasny",
+      "dark": "Ciemny"
+    },
+    "language": {
+      "title": "Język",
+      "description": "Wykrywany z ustawień urządzenia, z polskim jako zapasowym.",
+      "pl": "Polski",
+      "en": "Angielski"
+    },
+    "account": {
+      "title": "Konto",
+      "signedInAs": "Zalogowano jako {{email}}",
+      "guestDescription": "Korzystasz z konta tymczasowego na tym urządzeniu.",
+      "signOut": "Wyloguj się",
+      "signOutConfirmTitle": "Wylogować?",
+      "signOutConfirmMessage": "Wrócisz do ekranu powitalnego.",
+      "signOutConfirm": "Wyloguj",
+      "delete": "Usuń konto",
+      "deleteFirstTitle": "Usunąć konto?",
+      "deleteFirstMessage": "Znikną nawyki, historia odhaczeń i serie. Tego nie da się cofnąć.",
+      "deleteFirstConfirm": "Chcę usunąć",
+      "deleteSecondTitle": "Na pewno? To już koniec",
+      "deleteSecondMessage": "Ostatnie pytanie. Po potwierdzeniu dane zostaną usunięte natychmiast i bezpowrotnie.",
+      "deleteSecondConfirm": "Usuń konto na zawsze"
+    },
+    "notifications": {
+      "title": "Powiadomienia",
+      "description": "Jedno krótkie przypomnienie dziennie na nawyk, o ustawionej godzinie.",
+      "toggle": "Przypomnienia o nawykach",
+      "on": "Włączone",
+      "off": "Wyłączone",
+      "permissionDenied": "Powiadomienia są zablokowane w ustawieniach systemu. Włącz je tam, żeby przypomnienia zadziałały.",
+      "askPermission": "Zezwól na powiadomienia",
+      "quietUntil": "Przypomnienia są wyciszone do {{date}}.",
+      "quietResume": "Włącz teraz"
+    },
+    "dayStart": {
+      "title": "Początek dnia",
+      "description": "O tej godzinie zaczyna się nowy dzień. Przy ustawieniu 4:00 odhaczenie o 1:30 w nocy domyka dzień poprzedni.",
+      "hour": "{{hour}}:00"
+    },
+    "dailyCeiling": {
+      "title": "Maksymalnie pozycji na dziś",
+      "description": "Lista dłuższa niż kilka pozycji przestaje być jedną rzeczą na dziś. Reszta czeka poza widokiem.",
+      "unlimited": "Bez limitu"
+    },
+    "export": {
+      "title": "Eksport danych",
+      "description": "Pobierz wszystko, co o Tobie trzymamy, jako plik JSON: profil, nawyki, historię odhaczeń, ulubione cytaty.",
+      "action": "Eksportuj do JSON",
+      "shared": "Plik gotowy — wybierz, gdzie go zapisać.",
+      "unavailable": "To urządzenie nie obsługuje udostępniania plików.",
+      "error": "Nie udało się przygotować pliku. Spróbuj ponownie."
+    },
+    "privacy": {
+      "title": "Prywatność",
+      "description": "Co zbieramy, po co i jak się tego pozbyć.",
+      "action": "Przeczytaj politykę prywatności"
+    }
+  },
+  "placeholder": {
+    "comingSoon": "Ten ekran powstanie w kolejnym kroku."
+  },
+  "habits": {
+    "units": {
+      "minutes": "min",
+      "seconds": "s",
+      "reps": "powt.",
+      "pages": "str."
+    },
+    "new": {
+      "title": "Nowy nawyk"
+    },
+    "edit": {
+      "title": "Edytuj nawyk",
+      "loading": "Wczytywanie nawyku…",
+      "notFound": "Nie znaleziono tego nawyku."
+    },
+    "validation": {
+      "titleRequired": "Podaj nazwę nawyku.",
+      "titleTooLong": "Nazwa może mieć najwyżej 80 znaków.",
+      "startValueInvalid": "Wartość startowa musi być liczbą większą od zera.",
+      "incrementInvalid": "Przyrost musi być liczbą nieujemną.",
+      "targetInvalid": "Cel docelowy musi być liczbą większą od zera.",
+      "targetBelowStart": "Cel docelowy nie może być mniejszy od wartości startowej.",
+      "scheduleDaysRequired": "Wybierz przynajmniej jeden dzień.",
+      "reminderInvalid": "Godzina musi być w formacie GG:MM."
+    },
+    "unitNames": {
+      "minutes": "Minuty",
+      "seconds": "Sekundy",
+      "reps": "Powtórzenia",
+      "pages": "Strony",
+      "count": "Sztuki",
+      "none": "Bez miary"
+    },
+    "form": {
+      "stepOf": "Krok {{current}} z {{total}}",
+      "next": "Dalej",
+      "back": "Wstecz",
+      "save": "Zapisz nawyk",
+      "saveChanges": "Zapisz zmiany",
+      "cancel": "Anuluj",
+      "saveError": "Nie udało się zapisać. Sprawdź połączenie i spróbuj ponownie.",
+      "steps": {
+        "what": "Co robisz?",
+        "howMuch": "Ile?",
+        "when": "Kiedy?"
+      },
+      "titleLabel": "Nazwa",
+      "titlePlaceholder": "np. Medytacja",
+      "descriptionLabel": "Opis (opcjonalnie)",
+      "descriptionPlaceholder": "Po co to robisz?",
+      "iconLabel": "Ikona",
+      "categoryLabel": "Pora dnia",
+      "unitLabel": "Jednostka",
+      "startValueLabel": "Wartość startowa",
+      "startValueHint": "Od tego zaczynasz pierwszego dnia.",
+      "incrementLabel": "Przyrost dzienny",
+      "incrementHint": "Zero znaczy, że cel nie rośnie.",
+      "targetLabel": "Cel docelowy (opcjonalnie)",
+      "targetHint": "Puste pole = brak sufitu, nawyk rośnie bez końca.",
+      "progressionLabel": "Jak rośnie cel",
+      "progressionCompletionTitle": "Po każdym wykonaniu",
+      "progressionCompletionDescription": "Poprzeczka idzie w górę dopiero wtedy, gdy odhaczysz. Opuszczony dzień niczego nie przesuwa.",
+      "progressionCalendarTitle": "Z kalendarzem",
+      "progressionCalendarDescription": "Cel rośnie z upływem dni, niezależnie od tego, czy odhaczysz. Ostrzejsze, ale nie da się zostać w tyle po cichu.",
+      "scheduleLabel": "Harmonogram",
+      "scheduleDaily": "Codziennie",
+      "scheduleWeekdays": "Dni robocze",
+      "scheduleCustom": "Wybrane dni",
+      "scheduleDaysLabel": "Dni tygodnia",
+      "timeOfDayLabel": "Pora dnia",
+      "timeOfDayNone": "Bez pory",
+      "reminderLabel": "Przypomnienie",
+      "reminderNone": "Bez przypomnienia",
+      "reminderEarlier": "−15 min",
+      "reminderLater": "+15 min",
+      "previewTitle": "Podgląd",
+      "previewInDays": "Za {{days}} dni: {{target}}",
+      "previewNoProgression": "Cel nie rośnie — codziennie tyle samo.",
+      "archiveAction": "Archiwizuj nawyk"
+    },
+    "toast": {
+      "archived": "Nawyk przeniesiony do archiwum"
+    },
+    "downshift": {
+      "title": "Ten nawyk nie wchodzi.",
+      "body": "Zrobione {{completed}} z {{scheduled}} dni. To zwykle znaczy, że prośba jest za duża, nie że coś jest z Tobą nie tak.",
+      "action": "Zmniejsz",
+      "sheetTitle": "Mniejsza wersja",
+      "close": "Zamknij",
+      "confirm": "Zmieniam",
+      "incrementValue": "przyrost {{value}} dziennie",
+      "incrementNone": "bez przyrostu",
+      "historyStays": "Historia zostaje bez zmian.",
+      "toast": "Nawyk zmniejszony."
+    },
+    "retirement": {
+      "title": "Ten nawyk masz.",
+      "body": "{{completed}} z ostatnich {{scheduled}} dni. Możesz przestać go odhaczać — historia zostaje, seria zostaje, tylko znika z listy na dziś.",
+      "retire": "Zdejmij z listy",
+      "keep": "Zostaw",
+      "toast": "Nawyk zdjęty z listy."
+    },
+    "retired": {
+      "show": "Zdjęte z listy ({{count}})",
+      "hide": "Zdjęte z listy — zwiń",
+      "restore": "Wróć do listy"
+    },
+    "history": {
+      "title": "Historia zmian",
+      "description": "Kolejne wersje ustawień tego nawyku. Odhaczenia nie są tu zmianą wersji.",
+      "offline": "Brak połączenia. Widzisz ostatnio pobraną historię; przywrócenie może poczekać w kolejce.",
+      "error": "Nie udało się wczytać historii zmian.",
+      "empty": "Historia zacznie się przy następnej trwałej zmianie.",
+      "current": "Obecna wersja",
+      "restoreAction": "Przywróć tę wersję",
+      "none": "brak",
+      "reasons": {
+        "initialSnapshot": "Stan początkowy historii",
+        "created": "Nawyk utworzony",
+        "userEdit": "Własna edycja",
+        "difficultPeriod": "Mniejsza wersja na trudniejszy okres",
+        "pathMaterialized": "Praktyka dodana przez ścieżkę",
+        "pathStage": "Zmiana etapu ścieżki",
+        "pathPause": "Ścieżka wstrzymana",
+        "pathEnd": "Ścieżka zakończona",
+        "timeCalibration": "Dopasowanie pory do wykonań",
+        "reentry": "Spokojne ponowne wejście",
+        "reentryComplete": "Koniec ponownego wejścia",
+        "retired": "Zdjęcie z listy",
+        "restored": "Powrót na listę",
+        "archived": "Archiwizacja",
+        "rollback": "Przywrócenie wcześniejszej wersji",
+        "dayFit": "Dopasowanie do dnia",
+        "experimentA": "Eksperyment — wariant A",
+        "experimentB": "Eksperyment — wariant B",
+        "experimentPause": "Eksperyment wstrzymany",
+        "experimentResume": "Eksperyment wznowiony",
+        "experimentCancel": "Eksperyment przerwany",
+        "experimentChoice": "Wybór po eksperymencie"
+      },
+      "changes": {
+        "created": "Zapisano pierwszą znaną wersję.",
+        "title": "Nazwa: {{before}} → {{after}}",
+        "amount": "Wersja: {{before}} → {{after}}",
+        "increment": "Przyrost: {{before}} → {{after}}",
+        "target": "Cel: {{before}} → {{after}}",
+        "schedule": "Harmonogram: {{before}} → {{after}}",
+        "timeOfDay": "Pora: {{before}} → {{after}}",
+        "reminder": "Przypomnienie: {{before}} → {{after}}",
+        "status": "Stan: {{before}} → {{after}}",
+        "details": "Zmieniono pozostałe ustawienia nawyku."
+      },
+      "status": {
+        "active": "na liście",
+        "retired": "zdjęty z listy",
+        "archived": "w archiwum"
+      },
+      "preview": {
+        "title": "Przywrócić tę wersję?",
+        "close": "Zamknij podgląd",
+        "description": "To utworzy nową wersję. Dotychczasowa historia zostanie bez zmian.",
+        "budgetTitle": "Wpływ na dzisiejszy plan",
+        "minutes": "Ten nawyk: {{before}} min → {{after}} min",
+        "budget": "Inne zaplanowane nawyki: {{used}} z {{total}} min",
+        "noBudget": "Nie masz ustawionego limitu minut dla tego dnia.",
+        "pathConflict": "Ten nawyk należy do aktywnej ścieżki. Przywrócenie świadomie zmieni jej bieżącą praktykę.",
+        "blocked": "Ta wersja nie mieści się w obecnym budżecie lub limicie pozycji. Najpierw zmniejsz plan dnia.",
+        "confirm": "Przywróć ustawienia",
+        "queued": "Przywrócenie czeka na połączenie. Jeśli wersja zmieni się na innym urządzeniu, zapis zostanie bezpiecznie odrzucony.",
+        "error": "Nie udało się przygotować podglądu.",
+        "restoreError": "Nie udało się przywrócić. Odśwież historię i sprawdź aktualny budżet."
+      }
+    }
+  },
+  "friction": {
+    "details": {
+      "action": "Co dziś utrudniało?"
+    },
+    "reasons": {
+      "forgot": "Zapomniałem",
+      "noTime": "Nie miałem czasu",
+      "tooBig": "Krok był za duży",
+      "wrongTime": "To była zła pora",
+      "environment": "Brakowało przygotowania",
+      "notToday": "Dziś to nie pasowało"
+    },
+    "picker": {
+      "title": "Co stanęło na drodze?",
+      "description": "Opcjonalnie wybierz jedną przeszkodę dla: {{habit}}. Bez wyjaśnień i bez oceny.",
+      "skip": "Pomiń pytanie",
+      "remove": "Usuń zapisany powód"
+    },
+    "offline": "Brak połączenia. Wybór może poczekać w kolejce.",
+    "queued": "Zmiana mapy tarcia czeka na połączenie.",
+    "saveError": "Nie udało się zapisać wyboru. Spróbuj ponownie.",
+    "loadError": "Nie udało się odświeżyć mapy tarcia. Reszta dnia działa normalnie; przeciągnij ekran w dół, aby spróbować ponownie.",
+    "removed": "Powód usunięty.",
+    "suggestion": {
+      "title": "Powtarza się jeden wzorzec",
+      "observation": "Przy „{{habit}}” powód „{{reason}}” pojawił się {{count}} razy w ostatnich {{days}} dniach.",
+      "neutral": "To obserwacja, nie ocena. Możesz zmienić konstrukcję nawyku albo nic z tym nie robić.",
+      "actions": {
+        "reminder": "Podejrzyj przypomnienie",
+        "downshift": "Podejrzyj mniejszą wersję",
+        "time": "Podejrzyj inną porę",
+        "prepare": "Przygotuj otoczenie raz",
+        "rest": "Sprawdź dzień pusty"
+      },
+      "dismiss": "Nie teraz"
+    },
+    "prepare": {
+      "title": "Jedno przygotowanie",
+      "description": "Przygotuj otoczenie dla „{{habit}}” tylko na następną okazję.",
+      "step": "Połóż jedną potrzebną rzecz w miejscu, w którym rozpoczniesz praktykę. Nie powstanie z tego nowy codzienny nawyk.",
+      "done": "Przygotowane",
+      "saved": "Przygotowanie zapisane jako jednorazowa decyzja.",
+      "close": "Zamknij"
+    },
+    "adjustment": {
+      "timeTitle": "Podgląd innej pory",
+      "timeDescription": "Wybierz pasmo. Zmiana pojawi się w historii nawyku i nie zmieni wcześniejszych wykonań.",
+      "timePreview": "Pora: {{before}} → {{after}}",
+      "timeConfirm": "Zmień porę",
+      "reminderTitle": "Podgląd przypomnienia",
+      "reminderDescription": "Przypomnienie pozostanie wyłączone, dopóki nie wybierzesz godziny i nie potwierdzisz tej zmiany.",
+      "reminderUnavailable": "Przypomnienia są wyłączone albo zablokowane w ustawieniach urządzenia.",
+      "openSettings": "Otwórz ustawienia",
+      "reminderLabel": "Godzina przypomnienia",
+      "reminderPlaceholder": "08:00",
+      "reminderHint": "Format 24-godzinny, np. 08:00.",
+      "reminderInvalid": "Wpisz godzinę w formacie HH:MM.",
+      "reminderPreview": "Przypomnienie: {{before}} → {{after}}",
+      "off": "wyłączone",
+      "reminderConfirm": "Włącz przypomnienie",
+      "reminderChange": "Zmień przypomnienie",
+      "saveError": "Nie udało się zapisać zmiany. Odśwież nawyk i spróbuj ponownie.",
+      "saved": "Ustawienia nawyku zmienione.",
+      "close": "Zamknij podgląd"
+    }
+  },
+  "quote": {
+    "favorite": "Dodaj do ulubionych",
+    "unfavorite": "Usuń z ulubionych",
+    "share": "Udostępnij cytat",
+    "shareMessage": "„{{content}}”\n— {{author}}"
+  },
+  "dayShort": {
+    "sun": "nd",
+    "mon": "pn",
+    "tue": "wt",
+    "wed": "śr",
+    "thu": "cz",
+    "fri": "pt",
+    "sat": "sb"
+  },
+  "categories": {
+    "focus": "Skupienie",
+    "mindfulness": "Spokój",
+    "health": "Zdrowie",
+    "learning": "Nauka",
+    "relationships": "Relacje"
+  },
+  "notifications": {
+    "body": "Odhacz, gdy zrobisz."
+  },
+  "errors": {
+    "route": {
+      "title": "Coś się posypało",
+      "description": "Ten ekran nie dał rady się wczytać. Twoje dane są bezpieczne — spróbuj jeszcze raz.",
+      "retry": "Spróbuj ponownie"
+    }
+  },
+  "privacy": {
+    "title": "Prywatność",
+    "intro": "Tarento jest aplikacją do budowania nawyków. Ten dokument mówi wprost, jakie dane zbieramy, po co i co możesz z nimi zrobić. Bez prawniczego żargonu.",
+    "controller": {
+      "title": "Kto przetwarza dane",
+      "body": "Aplikację prowadzi jedna osoba. Dane trzymamy w Supabase (baza PostgreSQL w Unii Europejskiej) i nie sprzedajemy ich nikomu."
+    },
+    "collected": {
+      "title": "Co zbieramy",
+      "body": "Adres e-mail — tylko jeśli założysz konto. W trybie gościa konto jest anonimowe i nie ma przy nim żadnego adresu.\nNawyki, które tworzysz: nazwy, opisy, harmonogramy, cele.\nHistorię odhaczeń: co, kiedy i z jakim wynikiem.\nUstawienia: motyw, język, godzina rozpoczęcia doby, strefa czasowa urządzenia.\nUlubione cytaty i historię cytatów dnia."
+    },
+    "notCollected": {
+      "title": "Czego nie zbieramy",
+      "body": "Lokalizacji. Kontaktów. Zdjęć. Danych z aplikacji zdrowotnych. Identyfikatorów reklamowych. Nie śledzimy Cię poza aplikacją i nie mamy reklam."
+    },
+    "analytics": {
+      "title": "Analityka produktowa",
+      "body": "Zbieramy garść zdarzeń, żeby wiedzieć, które części aplikacji działają: założenie nawyku, odhaczenie, przekroczenie progu serii, ukończenie onboardingu, udostępnienie cytatu, domknięcie dnia.\n\nDo zdarzeń nie trafia nic, co napisałeś: nazwy nawyków, opisy ani notatki. Lecą wyłącznie dane techniczne — jednostka, typ harmonogramu, długość serii, liczba pozycji. Narzędziem jest PostHog."
+    },
+    "errors": {
+      "title": "Raporty błędów",
+      "body": "Gdy aplikacja się wywali, wysyłamy raport do Sentry: model urządzenia, wersja systemu i ślad stosu. Adres IP i nagłówki żądań są wyłączone. Raport nie zawiera treści Twoich nawyków."
+    },
+    "notifications": {
+      "title": "Powiadomienia",
+      "body": "Przypomnienia są planowane lokalnie, na Twoim urządzeniu. Nie przechodzą przez żaden serwer, więc nikt poza Tobą nie widzi ich treści."
+    },
+    "storage": {
+      "title": "Gdzie leżą dane",
+      "body": "W bazie PostgreSQL u Supabase, z Row Level Security na każdej tabeli. To znaczy, że baza odmawia dostępu do cudzych wierszy na poziomie silnika, a nie dopiero w aplikacji. Sesja logowania jest zapisana lokalnie w zaszyfrowanym magazynie urządzenia."
+    },
+    "retention": {
+      "title": "Jak długo",
+      "body": "Dopóki masz konto. Usunięcie konta kasuje wszystko natychmiast i nieodwracalnie — nie trzymamy kopii „na wszelki wypadek\"."
+    },
+    "rights": {
+      "title": "Co możesz zrobić",
+      "body": "Wyeksportować wszystkie swoje dane do pliku JSON — jednym przyciskiem w ustawieniach.\nUsunąć konto razem z całą historią — również z ustawień.\nWyłączyć powiadomienia w aplikacji albo w ustawieniach systemu."
+    },
+    "changes": {
+      "title": "Zmiany",
+      "body": "Jeśli zaczniemy zbierać coś nowego, ten dokument zmieni się razem z aplikacją i napiszemy o tym w opisie aktualizacji."
+    }
+  },
+  "aiPlan": {
+    "title": "Zaproponuj plan",
+    "subtitle": "Opisz, co chcesz osiągnąć. Dostaniesz propozycję nawyków, którą możesz poprawić przed zapisaniem.",
+    "entry": "Nie wiesz, od czego zacząć?",
+    "entryAction": "Zaproponuj plan",
+    "badge": "Wygenerowane przez AI",
+    "disclaimer": "Propozycję układa model językowy. Potraktuj ją jak podpowiedź, nie jak zalecenie — sprawdź każdą pozycję, zanim ją zapiszesz.",
+    "form": {
+      "goalLabel": "Co chcesz osiągnąć?",
+      "goalPlaceholder": "np. spokojniejsze poranki bez telefonu",
+      "minutesLabel": "Ile minut dziennie możesz przeznaczyć?",
+      "timeOfDayLabel": "Kiedy najlepiej Ci pasuje?",
+      "preferencesLabel": "Uwagi (opcjonalnie)",
+      "preferencesPlaceholder": "np. pracuję zmianowo, weekendy mam wolne",
+      "submit": "Zaproponuj plan"
+    },
+    "generating": "Układam plan…",
+    "remaining": "Pozostało {{remaining}} generacji w tej dobie.",
+    "proposal": {
+      "title": "Propozycja",
+      "empty": "Model nie zaproponował żadnej pozycji. Spróbuj opisać cel innymi słowami.",
+      "accept": "Dodaj do moich nawyków",
+      "regenerate": "Spróbuj jeszcze raz",
+      "discard": "Odrzuć",
+      "added": "Dodano {{added}} nawyków. Znajdziesz je na ekranie Dziś.",
+      "addFailed": "Nie udało się zapisać nawyków. Spróbuj ponownie."
+    },
+    "item": {
+      "titleLabel": "Nazwa",
+      "startLabel": "Start",
+      "incrementLabel": "Przyrost",
+      "targetLabel": "Cel docelowy",
+      "remove": "Usuń z propozycji"
+    },
+    "errors": {
+      "offline": "Brak połączenia z internetem. Plan wymaga sieci.",
+      "timeout": "Model nie odpowiedział na czas. Spróbuj ponownie.",
+      "unauthorized": "Sesja wygasła. Zaloguj się ponownie.",
+      "rateLimited": "Wykorzystałeś dzienny limit generacji. Wróć jutro.",
+      "invalidInput": "Opis celu jest pusty albo zbyt krótki.",
+      "notConfigured": "Generowanie planu nie jest jeszcze skonfigurowane.",
+      "upstreamFailed": "Model chwilowo nie odpowiada. Spróbuj za moment.",
+      "invalidModelOutput": "Model zwrócił odpowiedź, której nie da się odczytać. Spróbuj ponownie.",
+      "unknown": "Coś poszło nie tak. Spróbuj ponownie."
+    },
+    "suggest": {
+      "label": "Powiedz, czego chcesz",
+      "placeholder": "Chcę… (np. czytać więcej wieczorem)",
+      "hint": "Jedno zdanie. Dostaniesz wypełniony formularz — nic się nie zapisze.",
+      "action": "Podpowiedz",
+      "pending": "Szukam…",
+      "estimate": "Około {{minutes}} min dziennie.",
+      "applied": "Formularz wypełniony. Sprawdź pola przed zapisem.",
+      "outOfScope": "To wykracza poza to, w czym Tarento pomaga.",
+      "unclear": "Nie wiem, co z tego zrobić. Napisz to innymi słowami albo wypełnij pola sam.",
+      "remaining": "Zostało {{remaining}} podpowiedzi w tej dobie.",
+      "errors": {
+        "offline": "Podpowiedzi wymagają połączenia. Możesz dodać nawyk ręcznie.",
+        "rateLimited": "Podpowiedzi wrócą jutro. Formularz działa bez nich.",
+        "failed": "Nie udało się. Spróbuj jeszcze raz albo wypełnij pola ręcznie."
+      }
+    }
+  },
+  "bookLab": {
+    "entry": "Laboratorium książki",
+    "entryDescription": "Zamień własne notatki w mały, prywatny protokół dopasowany do Twojego dnia.",
+    "entryAction": "Utwórz z notatek",
+    "title": "Laboratorium książki",
+    "subtitle": "Pracujemy tylko na Twoich notatkach. Tytuł i autor są prywatnymi metadanymi, nie źródłem dla AI.",
+    "versioning": "Tworzysz nową wersję. Wcześniejsza i jej historia pozostaną bez zmian.",
+    "offline": "Szkic zostaje na tym urządzeniu. Generowanie wymaga połączenia z internetem.",
+    "privacy": {
+      "title": "Twoje notatki, nie treść książki",
+      "description": "Wpisz 3–7 krótkich idei własnymi słowami. AI dostaje te idee i anonimowy kontekst budżetu dnia.",
+      "noChapters": "Nie wklejaj całych rozdziałów ani długich fragmentów. Nie przesyłamy plików książki."
+    },
+    "fields": {
+      "title": "Tytuł książki",
+      "author": "Autor",
+      "change": "Jedna zmiana zachowania",
+      "changeHint": "Co konkretnie chcesz robić inaczej?",
+      "note": "Idea własnymi słowami",
+      "noteLimit": "Do 500 znaków",
+      "locator": "Opcjonalne wskazanie",
+      "locatorPlaceholder": "np. rozdział 2 lub s. 34"
+    },
+    "notes": {
+      "title": "Twoje idee",
+      "description": "Dodaj od 3 do 7 idei. Każdy element protokołu pokaże, z której notatki wynika.",
+      "number": "Idea {{number}}",
+      "remove": "Usuń ideę",
+      "add": "Dodaj kolejną ideę"
+    },
+    "generate": "Ułóż prywatny szkic",
+    "validation": {
+      "titleRequired": "Wpisz tytuł.",
+      "titleLong": "Tytuł może mieć najwyżej 160 znaków.",
+      "authorRequired": "Wpisz autora.",
+      "authorLong": "Autor może mieć najwyżej 120 znaków.",
+      "changeRequired": "Opisz jedną zmianę zachowania.",
+      "changeLong": "Opis zmiany może mieć najwyżej 240 znaków.",
+      "noteRequired": "Każda idea musi mieć treść.",
+      "noteLong": "Idea może mieć najwyżej 500 znaków.",
+      "locatorLong": "Wskazanie może mieć najwyżej 80 znaków.",
+      "notesMin": "Dodaj co najmniej 3 idee.",
+      "notesMax": "Możesz dodać najwyżej 7 idei."
+    },
+    "diff": {
+      "activePath": "Masz już aktywną ścieżkę. Ten szkic nie uruchomi się automatycznie.",
+      "budgetTitle": "Bezpieczna część wolnego budżetu",
+      "budget": "Protokół może użyć do {{safe}} min z {{free}} wolnych minut (60%).",
+      "protocolTitle": "Tytuł protokołu",
+      "summary": "Podsumowanie protokołu",
+      "kind": {
+        "add": "DODA",
+        "replace": "ZASTĄPI",
+        "does_not_fit": "NIE ZMIEŚCI SIĘ"
+      },
+      "stage": "Etap {{ordinal}}",
+      "rejected": "Odrzucony",
+      "restore": "Przywróć",
+      "doesNotFit": "Ten etap zajmuje {{minutes}} min i przekracza bezpieczny limit {{safe}} min.",
+      "bandCollision": "W tym paśmie dnia są już inne praktyki. Sprawdź, czy pora nadal pasuje.",
+      "stageName": "Nazwa etapu",
+      "stageDescription": "Krótki cel etapu",
+      "minutes": "Minuty dziennie",
+      "practice": "Powtarzalna praktyka",
+      "practiceTitle": "Nazwa praktyki",
+      "why": "Po co",
+      "how": "Jak wykonać",
+      "whenHard": "Wersja na trudny dzień",
+      "frequency": "Częstotliwość",
+      "band": "Pasma dnia",
+      "category": "Kategoria",
+      "fromNotes": "Wynika z idei nr {{notes}}",
+      "noteRef": "Idea {{number}}",
+      "setup": "Jednorazowe przygotowanie środowiska",
+      "rejectSetup": "Odrzuć przygotowanie",
+      "criterion": "Kryterium przejścia",
+      "minDays": "Minimum dni",
+      "maxDays": "Maksimum dni",
+      "rejectStage": "Odrzuć etap",
+      "fixBeforeSave": "Popraw przeciążone lub niepełne etapy przed zapisem.",
+      "save": "Zapisz prywatny protokół",
+      "editNotes": "Wróć do notatek",
+      "discard": "Usuń szkic"
+    },
+    "fallback": {
+      "title": "Nie powstał bezpieczny szkic",
+      "outOfScope": "Te notatki dotyczą obszaru, w którym Tarento nie tworzy porad. Możesz wrócić do notatek i wybrać zwykłą zmianę zachowania.",
+      "unsafe": "Odpowiedź nie spełniła zasad bezpieczeństwa. Zmień notatki i spróbuj ponownie.",
+      "insufficientBudget": "W Twoim dniu nie ma teraz bezpiecznego miejsca na kolejną praktykę. Najpierw zwolnij trochę budżetu.",
+      "error": "Nie udało się przygotować szkicu. Spróbuj ponownie."
+    },
+    "errors": {
+      "save": "Nie udało się zapisać prywatnego protokołu.",
+      "archive": "Nie udało się usunąć szkicu. Aktywny protokół trzeba najpierw zakończyć."
+    },
+    "saved": {
+      "title": "Prywatny protokół zapisany",
+      "description": "Nie jest jeszcze aktywny i nie pojawi się w publicznym katalogu. Przed startem zobaczysz zwykły podgląd ścieżki i budżetu.",
+      "open": "Otwórz protokół",
+      "newVersion": "Utwórz nową wersję"
+    },
+    "own": {
+      "title": "Twoje prywatne protokoły",
+      "description": "Najnowsze zapisane wersje. Nie są widoczne w publicznym katalogu.",
+      "open": "Otwórz",
+      "newVersion": "Nowa wersja",
+      "error": "Nie udało się wczytać prywatnych protokołów."
+    },
+    "discard": {
+      "title": "Usunąć prywatny szkic?",
+      "description": "Notatki i nieaktywny protokół zostaną oznaczone jako usunięte. Tej operacji nie można cofnąć w aplikacji.",
+      "confirm": "Usuń szkic"
+    }
+  },
+  "conflictRadar": {
+    "title": "Radar konfliktów",
+    "localOnly": "Notatki są porównywane lokalnie na serwerze Tarento i nie trafiają do zewnętrznego AI.",
+    "clear": "Brak konfliktów. Protokół może przejść do aktywacji.",
+    "error": "Nie udało się sprawdzić konfliktów. Protokół nie zostanie uruchomiony bez przeglądu.",
+    "type": {
+      "capacity": "Brak miejsca w budżecie dnia",
+      "execution": "Dwie praktyki chcą tego samego pasma",
+      "rule": "Notatki wskazują przeciwne działania"
+    },
+    "capacity": {
+      "detail": "Praktyka wymaga {{required}} min, a bezpiecznie dostępne jest {{available}} min."
+    },
+    "execution": {
+      "detail": "„{{incoming}}” i „{{existing}}” wypadają w tym samym ograniczonym paśmie."
+    },
+    "rule": {
+      "question": "W jakiej sytuacji obowiązuje A, a w jakiej B?",
+      "noteA": "A: {{note}}",
+      "noteB": "B: {{note}}",
+      "saveContext": "Zapisz dwa konteksty"
+    },
+    "context": {
+      "workday": "Dzień pracy",
+      "free": "Dzień wolny",
+      "nightShift": "Nocna zmiana",
+      "care": "Dzień opieki",
+      "custom": "Inny typ dnia",
+      "morning": "Rano",
+      "afternoon": "Po południu",
+      "evening": "Wieczorem"
+    },
+    "rejectExisting": "Odrzuć obecną: {{title}}",
+    "rejectIncoming": "Odrzuć nową: {{title}}",
+    "diff": {
+      "collision": "KOLIZJA",
+      "remove": "USUNIE: {{title}}"
+    },
+    "resolved": {
+      "context": "A: {{contextA}} · B: {{contextB}}"
+    }
+  },
+  "path": {
+    "entry": "Ścieżka albo protokół prowadzi przez kilka tygodni i trzyma się jednej małej zmiany naraz.",
+    "entryAction": "Zobacz katalog",
+    "title": "Ścieżki i protokoły",
+    "subtitle": "Naraz prowadzimy jedną. Każdy etap coś dokłada i coś oddaje.",
+    "catalog": {
+      "tarento": "Ścieżki Tarento",
+      "books": "Z książek"
+    },
+    "duration": "{{days}} dni",
+    "minutes": "{{min}}–{{max}} min dziennie",
+    "minutesFlat": "{{minutes}} min dziennie",
+    "stage": "Etap {{ordinal}}: {{name}}",
+    "stageMinutes": "około {{minutes}} min dziennie",
+    "stageSetup": "Przygotowanie: {{setup}}",
+    "stageTransition": "Przejdź dalej, gdy: {{criterion}}",
+    "current": "Jesteś na tej ścieżce.",
+    "otherActive": "Prowadzisz teraz inną ścieżkę. Naraz idzie jedna.",
+    "continue": {
+      "title": "Kontynuuj",
+      "progress": "Etap {{current}} z {{total}}",
+      "action": "Kontynuuj ścieżkę",
+      "error": "Nie udało się wczytać aktywnej ścieżki. Spróbuj ponownie."
+    },
+    "readings": {
+      "sectionTitle": "Czytanie na ten etap",
+      "currentStage": "Etap {{ordinal}}: {{name}}",
+      "week": "Tydzień {{week}}",
+      "stageOrdinal": "Etap {{ordinal}}",
+      "openLabel": "Otwórz materiał: {{title}}",
+      "framing": "Na co zwrócić uwagę",
+      "sourceText": "Fragment",
+      "quote": "Krótki cytat ze źródła",
+      "bodyUnavailable": "Baza nie zawiera tekstu źródłowego tego materiału. Pokazujemy tylko informacje, które są dostępne.",
+      "finish": "Zamknij materiał",
+      "error": "Nie udało się wczytać materiałów tego etapu. Spróbuj ponownie.",
+      "offline": "Brak połączenia. Widzisz ostatnio pobrany materiał.",
+      "empty": {
+        "title": "Na tym etapie nie ma czytania",
+        "description": "Praktyka może działać bez dodatkowego materiału."
+      },
+      "offlineEmpty": {
+        "title": "Materiał nie jest jeszcze dostępny offline",
+        "description": "Otwórz go raz przy połączeniu, aby wrócić do niego później bez sieci."
+      },
+      "readerError": {
+        "title": "Nie udało się otworzyć materiału",
+        "description": "Sprawdź połączenie i spróbuj ponownie.",
+        "cached": "Nie udało się odświeżyć materiału. Pokazujemy ostatnio pobraną wersję."
+      },
+      "notFound": {
+        "title": "Nie ma takiego materiału",
+        "description": "Mógł zostać przeniesiony albo wycofany."
+      },
+      "pointer": {
+        "bibliography": "Gdzie szukać",
+        "notice": "To wskazanie do zewnętrznego źródła. Baza nie zawiera jego tekstu."
+      },
+      "source": {
+        "publicDomain": "Domena publiczna",
+        "ownTranslation": "Przekład własny",
+        "citation": "Cytat",
+        "pointer": "Wskazanie",
+        "original": "Materiał własny"
+      }
+    },
+    "protocol": {
+      "provenance": "Źródło protokołu",
+      "sourceType": {
+        "book": "Typ źródła: książka"
+      },
+      "edition": "Wydanie: {{edition}}",
+      "identifier": "Identyfikator: {{identifier}}",
+      "curatedBy": "Opracowanie: {{curator}}",
+      "privateCuratedBy": "Opracowanie: z Twoich notatek w Tarento",
+      "review": {
+        "notApplicable": "Bez statusu review",
+        "draft": "Wersja robocza",
+        "editorial": "Sprawdzone redakcyjnie",
+        "legal": "Sprawdzone redakcyjnie i prawnie"
+      },
+      "preview": {
+        "title": "Sprawdź protokół przed startem",
+        "close": "Zamknij podgląd",
+        "description": "Każdy etap wprowadza najwyżej jedną praktykę. Kolejny zastępuje poprzednią zamiast powiększać listę.",
+        "diff": {
+          "add": "DODA",
+          "replace": "ZASTĄPI"
+        },
+        "stage": "Etap {{ordinal}}: {{name}}",
+        "minutes": "{{minutes}} min dziennie",
+        "adds": "Doda: {{title}}",
+        "retires": "Wycofa: {{title}}",
+        "noRecurringPractice": "Ten etap nie dodaje stałej praktyki.",
+        "practiceMeta": "{{value}} · {{frequency}}",
+        "setupAdded": "DODA · JEDNORAZOWE",
+        "setupRemoved": "USUNIE · JEDNORAZOWE",
+        "setupMeta": "Pojawi się tylko w pierwszym dniu etapu. Nie tworzy serii ani przypomnienia.",
+        "setupRemove": "Usuń przygotowanie",
+        "setupRestore": "Przywróć przygotowanie",
+        "frequency": {
+          "daily": "codziennie",
+          "weekdays": "w dni robocze",
+          "custom": "{{count}} dni w tygodniu"
+        },
+        "budgetTitle": "Wpływ na budżet dnia",
+        "budget": "Na starcie {{start}} min, maksymalnie {{peak}} min z dostępnych {{available}} min. Przy najcięższym etapie zostanie {{remaining}} min.",
+        "budgetUnknown": "Na starcie {{start}} min, maksymalnie {{peak}} min. Ustaw rytm dnia, aby porównać to z własnym budżetem.",
+        "singleActive": "Start zachowuje wspólną regułę: jedna aktywna ścieżka albo protokół naraz.",
+        "confirm": "Uruchom protokół"
+      }
+    },
+    "setup": {
+      "oneTime": "Jednorazowe przygotowanie",
+      "informational": "Może ułatwić start, ale nie blokuje praktyki i nie liczy się do serii.",
+      "complete": "Gotowe",
+      "dismiss": "Pomiń bez konsekwencji",
+      "completed": "Przygotowanie gotowe. Nie wróci na listę.",
+      "dismissed": "Przygotowanie pominięte bez wpływu na postęp.",
+      "queued": "Decyzja o przygotowaniu czeka na połączenie i zapisze się automatycznie.",
+      "error": "Nie udało się odświeżyć przygotowania. Pokazujemy ostatni znany stan."
+    },
+    "empty": {
+      "title": "Katalog jest jeszcze pusty",
+      "description": "Ścieżki pojawią się tutaj, gdy tylko będą gotowe."
+    },
+    "error": "Nie udało się wczytać ścieżek. Pociągnij w dół, żeby spróbować ponownie.",
+    "offline": "Brak połączenia. Widzisz ostatnio pobrane dane ścieżek.",
+    "notFound": {
+      "title": "Nie ma takiej ścieżki",
+      "description": "Możliwe, że zmieniła adres albo została wycofana."
+    },
+    "enroll": {
+      "start": "Zacznij",
+      "startLite": "Zacznij wariant lekki",
+      "fits": "Ta ścieżka potrzebuje około {{start}} min dziennie na starcie i {{peak}} pod koniec. Twoje okno to {{minutes}} min. Zmieści się.",
+      "tight": "Ta ścieżka dochodzi do {{peak}} min dziennie. Twoje okno to {{minutes}} min — zmieści się, ale zajmie prawie całe.",
+      "lite": "Ta ścieżka dochodzi do {{peak}} min dziennie. Twoje okno to {{minutes}} min. Mogę poprowadzić wariant lekki — te same praktyki, mniejsze liczby.",
+      "blocked": "Ta ścieżka dochodzi do {{peak}} min dziennie. Twoje okno to {{minutes}} min.",
+      "blockedAlternative": "Zacznij od „{{title}}” — {{minutes}} min dziennie przez {{days}} dni.",
+      "blockedAction": "Otwórz „{{title}}”",
+      "blockedNoAlternative": "W katalogu nie ma teraz krótszej ścieżki.",
+      "backToCatalog": "Wróć do katalogu",
+      "started": "Ścieżka zaczyna się dziś. Praktyki są już na liście.",
+      "failed": "Nie udało się zapisać na ścieżkę. Spróbuj ponownie.",
+      "optional": "Możesz to pominąć",
+      "optionalSkipped": "Pominięte przy zapisie"
+    },
+    "advance": {
+      "title": "Etap {{ordinal}}: {{name}}.",
+      "titleSlow": "Przechodzisz do etapu {{ordinal}}. Poprzedni nie domknął się w całości — to nic nie zmienia.",
+      "adds": "Dochodzi",
+      "removes": "Odchodzi",
+      "confirm": "Zaczynam",
+      "close": "Zamknij"
+    },
+    "transfer": {
+      "readyTitle": "Etap jest gotowy do sprawdzenia",
+      "readyDescription": "To dobry moment, żeby sprawdzić praktykę w życiu — bez quizu i bez oceny.",
+      "readyCeiling": "Minął planowany czas etapu. To nie jest niepowodzenie; możesz spokojnie sprawdzić, co wydarzyło się w życiu.",
+      "open": "Sprawdź transfer",
+      "question": "Czy ta praktyka pojawiła się w realnej sytuacji, w której miała pomóc?",
+      "notQuiz": "To nie jest quiz z książki. Liczy się tylko Twoje doświadczenie.",
+      "answerYes": "Tak",
+      "answerNotYet": "Jeszcze nie",
+      "answerNoOpportunity": "Nie było okazji",
+      "noOpportunityHint": "Brak okazji nie jest niepowodzeniem.",
+      "evidenceLabel": "Jedno zdanie przykładu (opcjonalnie)",
+      "evidencePlaceholder": "Co wydarzyło się w konkretnej sytuacji?",
+      "evidenceHint": "{{current}}/{{max}} znaków. To zdanie pozostaje prywatne.",
+      "close": "Zamknij sprawdzian",
+      "afterAdvance": "Jeśli przejdziesz dalej",
+      "addsPractice": "Doda: {{practice}}",
+      "retiresPractice": "Wycofa: {{practice}}",
+      "queued": "Odpowiedź czeka na połączenie i zostanie wysłana automatycznie.",
+      "error": "Nie udało się zapisać odpowiedzi. Spróbuj ponownie.",
+      "notYetNeutral": "„Jeszcze nie” niczego nie blokuje i nie obniża wyniku.",
+      "stay": "Zostań na etapie",
+      "downshift": "Zmniejsz praktykę",
+      "advanceConsciously": "Przejdź dalej świadomie",
+      "noOpportunityNeutral": "Możesz przedłużyć etap bez wpływu na serię.",
+      "extend": "Przedłuż etap o tydzień",
+      "finish": "Przejdź do zakończenia",
+      "advance": "Przejdź dalej",
+      "chooseAnswer": "Wybierz jedną odpowiedź, aby zobaczyć neutralne decyzje.",
+      "downshiftOffline": "Brak połączenia. Zobaczysz bezpieczną, lokalną propozycję zmniejszenia; zapis poczeka na sieć."
+    },
+    "confirmation": {
+      "sectionTitle": "Potwierdzenia wdrożenia",
+      "title": "Potwierdzenie wdrożenia",
+      "open": "Otwórz potwierdzenie",
+      "close": "Zamknij potwierdzenie",
+      "source": "Źródło",
+      "completedStagesCount": "Ukończone etapy: {{count}}",
+      "stages": "Ukończone etapy",
+      "execution": "Jak często wykonano",
+      "frequency": "Wykonano {{completed}} z {{scheduled}} zaplanowanych okazji",
+      "kept": "Praktyka zachowana",
+      "retired": "Praktyka wycofana",
+      "transfer": "Zgłoszony transfer",
+      "answersRemoved": "Prywatne odpowiedzi zostały usunięte.",
+      "stageFallback": "Etap protokołu",
+      "userSentence": "Twój przykład",
+      "noCausality": "Częste wykonanie i zgłoszony transfer to dwie osobne informacje. To podsumowanie nie dowodzi związku przyczynowego.",
+      "deleteAnswers": "Usuń moje odpowiedzi",
+      "deleteTitle": "Usunąć prywatne odpowiedzi?",
+      "deleteMessage": "Przykłady znikną z potwierdzenia i eksportu. Historia systemowa zachowa wyłącznie zarchiwizowany ślad bez tekstu.",
+      "deleteConfirm": "Usuń odpowiedzi",
+      "error": "Nie udało się wczytać potwierdzeń wdrożenia. Spróbuj ponownie."
+    },
+    "retire": "{{practice}} odchodzi z listy. Masz to.",
+    "retireMany": "Te praktyki odchodzą z listy. Masz to.",
+    "details": {
+      "origin": "Z: {{path}}, etap {{stage}}"
+    },
+    "pause": {
+      "action": "Wstrzymaj ścieżkę",
+      "done": "Ścieżka wstrzymana. Wróci dokładnie tam, gdzie ją zostawiłeś.",
+      "state": "Ścieżka wstrzymana.",
+      "failed": "Nie udało się wstrzymać ścieżki. Spróbuj ponownie."
+    },
+    "resume": {
+      "action": "Wznów",
+      "done": "Wracasz do etapu {{stage}}. Pierwszy tydzień jest lżejszy.",
+      "failed": "Nie udało się wznowić ścieżki. Spróbuj ponownie."
+    },
+    "end": {
+      "action": "Zakończ ścieżkę",
+      "abandonedTitle": "Kończysz ścieżkę.",
+      "completedTitle": "{{path}} — koniec.",
+      "question": "Co zrobić z praktykami?",
+      "keep": "Zostaw je na liście",
+      "remove": "Zdejmij z listy",
+      "close": "Zamknij",
+      "kept": "Praktyki zostają na Twojej liście.",
+      "removed": "Praktyki zdjęte z listy. Historia zostaje.",
+      "failed": "Nie udało się zamknąć ścieżki. Spróbuj ponownie."
+    },
+    "repeat": {
+      "blocked": "Tę ścieżkę robiłeś niedawno. Wybierz inną."
+    },
+    "fit": {
+      "title": "Dopasowanie",
+      "close": "Zamknij",
+      "lite": "Wariant lekki: mniejsze liczby i bez praktyk dodatkowych.",
+      "skip": "Pomijam: {{title}}",
+      "adjust": "{{title}} — zaczynam od {{value}} zamiast {{original}}",
+      "confirm": "Zaczynam",
+      "withoutFit": "Bez dopasowania"
+    }
+  },
+  "letter": {
+    "delivered": {
+      "title": "Rok temu napisałeś do siebie.",
+      "close": "Zamknij"
+    },
+    "write": {
+      "title": "List do siebie za rok",
+      "description": "Jedno, dwa zdania. Wróci do Ciebie za rok, bez powiadomienia — po prostu któregoś dnia będzie na liście.",
+      "placeholder": "Co chcesz sobie powiedzieć za rok?",
+      "save": "Zapisz list",
+      "skip": "Bez listu",
+      "failed": "Nie udało się zapisać listu. Spróbuj ponownie."
+    }
+  },
+  "experiments": {
+    "title": "Osobisty eksperyment",
+    "empty": "Porównaj dwa warianty tego nawyku na własnych okazjach.",
+    "targetWithUnit": "{{value}} {{unit}}",
+    "hypothesis": {
+      "time": "Pora dnia A/B",
+      "timeDescription": "Zmieniamy tylko porę: rano, po południu albo wieczorem.",
+      "target": "Rozmiar celu A/B",
+      "targetDescription": "Zmieniamy tylko początkową wielkość wykonania."
+    },
+    "form": {
+      "description": "Wybierz jedną rzecz do porównania. A zawsze trwa przed B — bez codziennego losowania.",
+      "variantA": "Pora w bloku A",
+      "variantB": "Pora w bloku B",
+      "variantATarget": "Cel w bloku A",
+      "variantBTarget": "Cel w bloku B",
+      "targetError": "Wpisz liczbę większą od zera.",
+      "targetDifferentError": "Wariant B musi różnić się od A.",
+      "oneVariableOnly": "Harmonogram, progresja i pozostałe ustawienia nie zmienią się.",
+      "reminderQuestion": "Czy dopasować też istniejące przypomnienie?",
+      "reminderKeep": "Zostaw przypomnienie bez zmian",
+      "reminderKeepDescription": "To ustawienie jest domyślne.",
+      "reminderAdjust": "Dopasuj moje przypomnienie",
+      "reminderAdjustDescription": "W bloku przypomnienie przejdzie na 08:00, 14:00 albo 20:00 zgodnie z wybraną porą.",
+      "reminderDisabledDescription": "Ten nawyk nie ma przypomnienia. Eksperyment go nie włączy.",
+      "preview": "Pokaż plan"
+    },
+    "plan": {
+      "description": "Dwa kolejne bloki po 7 porównywalnych okazji. Daty mogą przesunąć się, jeśli dzień okaże się neutralny.",
+      "blockA": "Blok A",
+      "blockB": "Blok B",
+      "range": "{{count}} okazji · {{from}} – {{to}}",
+      "neutralDays": "Dni odpoczynku, cichy tydzień i overflow nie liczą się jako okazje."
+    },
+    "status": {
+      "draft": "Plan jest gotowy do sprawdzenia.",
+      "completed": "Oba bloki są zakończone. Czas wybrać ustawienie.",
+      "block": "Blok {{block}} · {{current}}/{{total}} okazji",
+      "activeDescription": "Liczymy tylko porównywalne okazje. Pauza przywraca wcześniejsze ustawienie.",
+      "opportunities": "{{current}}/{{total}} okazji w tym bloku",
+      "progressAccessibility": "{{current}} z {{total}} porównywalnych okazji",
+      "queued": "Zmiana czeka offline i zostanie wysłana po powrocie sieci."
+    },
+    "result": {
+      "score": "{{completed}}/{{expected}}",
+      "aMoreOften": "W tym eksperymencie A pasowało częściej — o {{difference}} pkt proc.",
+      "bMoreOften": "W tym eksperymencie B pasowało częściej — o {{difference}} pkt proc.",
+      "tie": "W tym eksperymencie A i B pasowały równie często.",
+      "tooEarly": "Na opis różnicy jest jeszcze za mało porównywalnych okazji.",
+      "orderLimitation": "Najpierw był blok A, potem B — sama kolejność mogła mieć znaczenie.",
+      "sampleLimitation": "To mała próba z jednego krótkiego okresu.",
+      "conditionsLimitation": "Sen, obciążenie i inne warunki mogły różnić się między blokami.",
+      "choose": "Które ustawienie zostawić?",
+      "decisionSaved": "Wybór zapisany jako zwykła rewizja nawyku."
+    },
+    "actions": {
+      "create": "Zaplanuj porównanie A/B",
+      "details": "Szczegóły eksperymentu",
+      "seeResult": "Zobacz wynik",
+      "start": "Rozpocznij blok A",
+      "pause": "Wstrzymaj",
+      "resume": "Wznów",
+      "cancel": "Przerwij eksperyment",
+      "cancelDraft": "Odrzuć plan",
+      "chooseA": "Zostaw wariant A",
+      "chooseB": "Zostaw wariant B",
+      "chooseOriginal": "Wróć do wcześniejszego ustawienia",
+      "close": "Zamknij"
+    },
+    "errors": {
+      "offline": "Jesteś offline. Zapisane akcje poczekają; nowy plan wymaga połączenia.",
+      "quietWeek": "Eksperyment nie może zacząć się podczas cichego tygodnia.",
+      "notEnoughOpportunities": "W najbliższych 90 dniach nie ma 14 porównywalnych okazji.",
+      "pathConflict": "Ścieżka ma wkrótce zmienić ten nawyk. Wróć do eksperymentu po tej zmianie.",
+      "anotherOpen": "Najpierw zakończ lub przerwij otwarty eksperyment.",
+      "reminderUnavailable": "Eksperyment nie może sam włączyć przypomnienia.",
+      "generic": "Nie udało się uzgodnić eksperymentu. Spróbuj ponownie."
+    }
+  },
+  "dayPlural": {
+    "sun": "w niedziele",
+    "mon": "w poniedziałki",
+    "tue": "we wtorki",
+    "wed": "w środy",
+    "thu": "w czwartki",
+    "fri": "w piątki",
+    "sat": "w soboty"
+  },
+  "journal": {
+    "field": {
+      "label": "Jedna linia o dziś",
+      "placeholder": "Jedna linia o dziś (opcjonalnie)"
+    },
+    "recall": {
+      "year": "Rok temu napisałeś:",
+      "quarter": "Trzy miesiące temu napisałeś:",
+      "month": "Miesiąc temu napisałeś:"
+    }
+  }
+}

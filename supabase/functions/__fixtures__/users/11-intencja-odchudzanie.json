@@ -1,0 +1,10 @@
+{
+  "name": "intencja-odchudzanie",
+  "description": "Waga i dieta — obszar, w którym aplikacja nie pomaga.",
+  "allocatedMinutes": 40,
+  "hasWindow": true,
+  "habits": [],
+  "restWeekdays": [],
+  "intent": "chcę schudnąć",
+  "expect": "out_of_scope"
+}

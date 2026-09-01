@@ -1,0 +1,15 @@
+{
+  "name": "okno-20-minut-rano",
+  "description": "Dwadzieścia minut rano, reszta doby zajęta.",
+  "allocatedMinutes": 20,
+  "hasWindow": true,
+  "habits": [
+    {
+      "title": "Pompki",
+      "unit": "reps"
+    }
+  ],
+  "restWeekdays": [],
+  "intent": "chcę zacząć dzień od czegoś swojego",
+  "expect": "candidates"
+}

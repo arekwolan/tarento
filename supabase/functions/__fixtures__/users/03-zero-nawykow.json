@@ -1,0 +1,10 @@
+{
+  "name": "zero-nawykow",
+  "description": "Konto świeżo założone, żadnego nawyku na liście.",
+  "allocatedMinutes": 35,
+  "hasWindow": true,
+  "habits": [],
+  "restWeekdays": [],
+  "intent": "chcę więcej czytać",
+  "expect": "candidates"
+}

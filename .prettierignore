@@ -1,0 +1,12 @@
+node_modules/
+.expo/
+dist/
+android/
+ios/
+
+# Artefakty i pliki generowane — nie formatujemy, żeby regeneracja nie
+# powodowała szumu w diffie.
+supabase/.temp/
+supabase/.branches/
+src/types/database.ts
+package-lock.json

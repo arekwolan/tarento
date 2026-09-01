@@ -1,0 +1,10 @@
+{
+  "name": "intencja-pusta",
+  "description": "Puste zdanie: nie ma czego zamieniać na formularz.",
+  "allocatedMinutes": 30,
+  "hasWindow": true,
+  "habits": [],
+  "restWeekdays": [],
+  "intent": "",
+  "expect": "invalid_input"
+}

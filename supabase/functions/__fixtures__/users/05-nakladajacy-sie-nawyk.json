@@ -1,0 +1,19 @@
+{
+  "name": "nakladajacy-sie-nawyk",
+  "description": "Użytkownik już czyta, a ścieżka też prosi o czytanie.",
+  "allocatedMinutes": 40,
+  "hasWindow": true,
+  "habits": [
+    {
+      "title": "Czytanie",
+      "unit": "pages"
+    },
+    {
+      "title": "Spacer",
+      "unit": "minutes"
+    }
+  ],
+  "restWeekdays": [],
+  "intent": "chcę czytać więcej książek",
+  "expect": "candidates"
+}

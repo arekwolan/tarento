@@ -1,0 +1,19 @@
+{
+  "name": "okno-45-minut-wieczor",
+  "description": "Typowe okno wieczorne, dwa nawyki na liście.",
+  "allocatedMinutes": 45,
+  "hasWindow": true,
+  "habits": [
+    {
+      "title": "Spacer",
+      "unit": "minutes"
+    },
+    {
+      "title": "Woda",
+      "unit": "count"
+    }
+  ],
+  "restWeekdays": [],
+  "intent": "chcę wieczorem odłożyć telefon",
+  "expect": "candidates"
+}

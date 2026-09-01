@@ -1,0 +1,15 @@
+{
+  "name": "intencja-200-znakow",
+  "description": "Zdanie dokładnie na limicie dwustu znaków.",
+  "allocatedMinutes": 50,
+  "hasWindow": true,
+  "habits": [
+    {
+      "title": "Dziennik",
+      "unit": "none"
+    }
+  ],
+  "restWeekdays": [],
+  "intent": "Chcę wreszcie ogarnąć wieczory, bo teraz siedzę z telefonem do pierwszej w nocy i rano nie mogę wstać, a potem cały dzień jest do niczego i wieczorem znowu to samo, i tak w kółko od miesięcy i mam teg",
+  "expect": "candidates"
+}

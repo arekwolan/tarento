@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Tokeny kolorów Tarento.
+ *
+ * To jest źródło prawdy dla stylowania. Te same trójki RGB są zduplikowane
+ * w src/theme/palette.ts, bo chrome nawigacji (tab bar, status bar) potrzebuje
+ * wartości w JS, a nie w klasach. Parzystości obu plików pilnuje test
+ * src/theme/__tests__/palette.test.ts — nie edytuj jednego bez drugiego.
+ *
+ * Kierunek: chłodna baza grafitowa + jeden ciepły akcent (mosiądz). Interfejs
+ * jest prawie monochromatyczny — kolor pojawia się wyłącznie tam, gdzie niesie
+ * informację o postępie. Motyw ciemny jest projektowany pierwszy.
+ *
+ * Wartości podane jako "R G B", żeby działał wzorzec
+ * rgb(var(--color-x) / <alpha-value>) w tailwind.config.js.
+ */
+@layer base {
+  /* Motyw jasny. */
+  :root {
+    --color-background: 245 246 247;
+    --color-surface: 255 255 255;
+    --color-surface-elevated: 255 255 255;
+    --color-surface-sunken: 237 239 241;
+    --color-border: 224 227 230;
+    --color-border-strong: 198 203 208;
+    /* Separator w liście i obrys w spoczynku. Dziś ma tę samą wartość co
+       `border`, ale inne znaczenie: `border` niesie informację, `hairline`
+       tylko rozdziela. Rozdzielone, żeby dało się przygasić jedno bez
+       drugiego. */
+    --color-hairline: 224 227 230;
+    /* Świetlna krawędź górna płaszczyzny. Używana WYŁĄCZNIE z alfą (patrz
+       EDGE_ALPHA w src/theme/elevation.ts). W motywie jasnym biel na bieli
+       jest niewidoczna i tak ma być — tam głębię niesie cień. */
+    --color-edge: 255 255 255;
+    --color-text-primary: 22 24 26;
+    --color-text-secondary: 87 95 102;
+    --color-text-tertiary: 122 131 138;
+    /* Mosiądz #C9922B ma na jasnym tle za mały kontrast na tekst: jako tekst
+       i ikony idzie wyłącznie `accent`, jako wypełnienie — `accent-fill`.
+       Nie zamieniaj tego miejscami. */
+    --color-accent: 122 90 18;
+    --color-accent-strong: 95 69 14;
+    --color-accent-fill: 201 146 43;
+    --color-accent-muted: 245 234 210;
+    --color-on-accent: 22 24 26;
+    /* Przycisk główny to maksymalny kontrast, nigdy akcent. */
+    --color-action: 22 24 26;
+    --color-on-action: 245 246 247;
+    --color-success: 47 107 71;
+    --color-warning: 154 78 35;
+    --color-danger: 180 50 46;
+    /* Przyciemnienie pod bottom sheetem. */
+    --color-scrim: 22 24 26;
+
+    /* Skala serii — jedyne miejsce z pełnym nasyceniem akcentu.
+       Poziom 0 to zarówno brak danych, jak i dzień pominięty: nie karzemy
+       wizualnie. */
+    --color-streak-0: 231 234 236;
+    --color-streak-1: 240 227 194;
+    --color-streak-2: 226 199 130;
+    --color-streak-3: 207 167 70;
+    --color-streak-4: 169 125 30;
+  }
+
+  /* Motyw ciemny — domyślny kierunek projektowy. */
+  .dark:root {
+    --color-background: 19 22 25;
+    --color-surface: 26 30 34;
+    --color-surface-elevated: 34 39 44;
+    --color-surface-sunken: 14 17 20;
+    --color-border: 44 50 56;
+    --color-border-strong: 61 69 76;
+    --color-hairline: 44 50 56;
+    --color-edge: 255 255 255;
+    --color-text-primary: 236 239 241;
+    --color-text-secondary: 155 165 173;
+    --color-text-tertiary: 123 133 141;
+    --color-accent: 201 146 43;
+    --color-accent-strong: 221 166 60;
+    --color-accent-fill: 201 146 43;
+    --color-accent-muted: 46 39 22;
+    --color-on-accent: 22 24 26;
+    --color-action: 236 239 241;
+    --color-on-action: 19 22 25;
+    --color-success: 94 156 118;
+    --color-warning: 194 104 58;
+    --color-danger: 192 82 79;
+    --color-scrim: 14 17 20;
+
+    --color-streak-0: 34 39 44;
+    --color-streak-1: 58 51 32;
+    --color-streak-2: 87 71 40;
+    --color-streak-3: 140 106 38;
+    --color-streak-4: 201 146 43;
+  }
+}
